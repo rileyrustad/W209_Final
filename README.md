@@ -9,7 +9,7 @@ The report itself is well-written, graphically pleasing, and provides many inter
 
 Here’s a sample page from the 2016 report:
 
-![](img/report.png =100x)
+![](/img/report.png)
 
 #### Concept:
 
