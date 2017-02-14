@@ -1,0 +1,1561 @@
+Neighborhood,Demographic,Unit_Size,Affordable_ind,Year
+Centennial-Glenfair-Wilkes,Avg. Portland Household,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Avg. Portland Household,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Avg. Portland Household,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,Avg. Portland Household,3-BR,Y,2016
+Centennial-Glenfair-Wilkes,Avg. Portland Household,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Extremely Low-Income,Studio,N,2016
+Centennial-Glenfair-Wilkes,3-Person Extremely Low-Income,1-BR,N,2016
+Centennial-Glenfair-Wilkes,3-Person Extremely Low-Income,2-BR,N,2016
+Centennial-Glenfair-Wilkes,3-Person Extremely Low-Income,3-BR,N,2016
+Centennial-Glenfair-Wilkes,3-Person Extremely Low-Income,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,3-Person Low-Income,Studio,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Low-Income,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Low-Income,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Low-Income,3-BR,N,2016
+Centennial-Glenfair-Wilkes,3-Person Low-Income,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Moderate-Income,Studio,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Moderate-Income,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Moderate-Income,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Moderate-Income,3-BR,Y,2016
+Centennial-Glenfair-Wilkes,3-Person Moderate-Income,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,Couple with Family,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Couple with Family,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Couple with Family,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,Couple with Family,3-BR,Y,2016
+Centennial-Glenfair-Wilkes,Couple with Family,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,White,Studio,Y,2016
+Centennial-Glenfair-Wilkes,White,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,White,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,White,3-BR,Y,2016
+Centennial-Glenfair-Wilkes,White,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,Black,Studio,N,2016
+Centennial-Glenfair-Wilkes,Black,1-BR,N,2016
+Centennial-Glenfair-Wilkes,Black,2-BR,N,2016
+Centennial-Glenfair-Wilkes,Black,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Black,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,Latino,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Latino,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Latino,2-BR,N,2016
+Centennial-Glenfair-Wilkes,Latino,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Latino,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,Native American,Studio,N,2016
+Centennial-Glenfair-Wilkes,Native American,1-BR,N,2016
+Centennial-Glenfair-Wilkes,Native American,2-BR,N,2016
+Centennial-Glenfair-Wilkes,Native American,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Native American,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,Asian,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Asian,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Asian,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,Asian,3-BR,Y,2016
+Centennial-Glenfair-Wilkes,Asian,Homeownership,Y,2016
+Centennial-Glenfair-Wilkes,Senior,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Senior,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Senior,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,Senior,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Senior,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,Single Mother,Studio,N,2016
+Centennial-Glenfair-Wilkes,Single Mother,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Single Mother,2-BR,N,2016
+Centennial-Glenfair-Wilkes,Single Mother,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Single Mother,Homeownership,N,2016
+Centennial-Glenfair-Wilkes,Foreign-Born,Studio,Y,2016
+Centennial-Glenfair-Wilkes,Foreign-Born,1-BR,Y,2016
+Centennial-Glenfair-Wilkes,Foreign-Born,2-BR,Y,2016
+Centennial-Glenfair-Wilkes,Foreign-Born,3-BR,N,2016
+Centennial-Glenfair-Wilkes,Foreign-Born,Homeownership,Y,2016
+122-Division,Avg. Portland Household,Studio,Y,2016
+122-Division,Avg. Portland Household,1-BR,Y,2016
+122-Division,Avg. Portland Household,2-BR,Y,2016
+122-Division,Avg. Portland Household,3-BR,Y,2016
+122-Division,Avg. Portland Household,Homeownership,Y,2016
+122-Division,3-Person Extremely Low-Income,Studio,N,2016
+122-Division,3-Person Extremely Low-Income,1-BR,N,2016
+122-Division,3-Person Extremely Low-Income,2-BR,N,2016
+122-Division,3-Person Extremely Low-Income,3-BR,N,2016
+122-Division,3-Person Extremely Low-Income,Homeownership,N,2016
+122-Division,3-Person Low-Income,Studio,Y,2016
+122-Division,3-Person Low-Income,1-BR,Y,2016
+122-Division,3-Person Low-Income,2-BR,Y,2016
+122-Division,3-Person Low-Income,3-BR,N,2016
+122-Division,3-Person Low-Income,Homeownership,Y,2016
+122-Division,3-Person Moderate-Income,Studio,Y,2016
+122-Division,3-Person Moderate-Income,1-BR,Y,2016
+122-Division,3-Person Moderate-Income,2-BR,Y,2016
+122-Division,3-Person Moderate-Income,3-BR,Y,2016
+122-Division,3-Person Moderate-Income,Homeownership,Y,2016
+122-Division,Couple with Family,Studio,Y,2016
+122-Division,Couple with Family,1-BR,Y,2016
+122-Division,Couple with Family,2-BR,Y,2016
+122-Division,Couple with Family,3-BR,Y,2016
+122-Division,Couple with Family,Homeownership,Y,2016
+122-Division,White,Studio,Y,2016
+122-Division,White,1-BR,Y,2016
+122-Division,White,2-BR,Y,2016
+122-Division,White,3-BR,Y,2016
+122-Division,White,Homeownership,Y,2016
+122-Division,Black,Studio,Y,2016
+122-Division,Black,1-BR,N,2016
+122-Division,Black,2-BR,N,2016
+122-Division,Black,3-BR,N,2016
+122-Division,Black,Homeownership,N,2016
+122-Division,Latino,Studio,Y,2016
+122-Division,Latino,1-BR,Y,2016
+122-Division,Latino,2-BR,N,2016
+122-Division,Latino,3-BR,N,2016
+122-Division,Latino,Homeownership,N,2016
+122-Division,Native American,Studio,Y,2016
+122-Division,Native American,1-BR,N,2016
+122-Division,Native American,2-BR,N,2016
+122-Division,Native American,3-BR,N,2016
+122-Division,Native American,Homeownership,N,2016
+122-Division,Asian,Studio,Y,2016
+122-Division,Asian,1-BR,Y,2016
+122-Division,Asian,2-BR,Y,2016
+122-Division,Asian,3-BR,Y,2016
+122-Division,Asian,Homeownership,Y,2016
+122-Division,Senior,Studio,Y,2016
+122-Division,Senior,1-BR,Y,2016
+122-Division,Senior,2-BR,N,2016
+122-Division,Senior,3-BR,N,2016
+122-Division,Senior,Homeownership,N,2016
+122-Division,Single Mother,Studio,Y,2016
+122-Division,Single Mother,1-BR,N,2016
+122-Division,Single Mother,2-BR,N,2016
+122-Division,Single Mother,3-BR,N,2016
+122-Division,Single Mother,Homeownership,N,2016
+122-Division,Foreign-Born,Studio,Y,2016
+122-Division,Foreign-Born,1-BR,Y,2016
+122-Division,Foreign-Born,2-BR,Y,2016
+122-Division,Foreign-Born,3-BR,N,2016
+122-Division,Foreign-Born,Homeownership,Y,2016
+Belmont-Hawthorne-Division,Avg. Portland Household,Studio,Y,2016
+Belmont-Hawthorne-Division,Avg. Portland Household,1-BR,Y,2016
+Belmont-Hawthorne-Division,Avg. Portland Household,2-BR,N,2016
+Belmont-Hawthorne-Division,Avg. Portland Household,3-BR,N,2016
+Belmont-Hawthorne-Division,Avg. Portland Household,Homeownership,N,2016
+Belmont-Hawthorne-Division,3-Person Extremely Low-Income,Studio,N,2016
+Belmont-Hawthorne-Division,3-Person Extremely Low-Income,1-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Extremely Low-Income,2-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Extremely Low-Income,3-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Extremely Low-Income,Homeownership,N,2016
+Belmont-Hawthorne-Division,3-Person Low-Income,Studio,N,2016
+Belmont-Hawthorne-Division,3-Person Low-Income,1-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Low-Income,2-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Low-Income,3-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Low-Income,Homeownership,N,2016
+Belmont-Hawthorne-Division,3-Person Moderate-Income,Studio,Y,2016
+Belmont-Hawthorne-Division,3-Person Moderate-Income,1-BR,Y,2016
+Belmont-Hawthorne-Division,3-Person Moderate-Income,2-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Moderate-Income,3-BR,N,2016
+Belmont-Hawthorne-Division,3-Person Moderate-Income,Homeownership,N,2016
+Belmont-Hawthorne-Division,Couple with Family,Studio,Y,2016
+Belmont-Hawthorne-Division,Couple with Family,1-BR,Y,2016
+Belmont-Hawthorne-Division,Couple with Family,2-BR,Y,2016
+Belmont-Hawthorne-Division,Couple with Family,3-BR,Y,2016
+Belmont-Hawthorne-Division,Couple with Family,Homeownership,N,2016
+Belmont-Hawthorne-Division,White,Studio,Y,2016
+Belmont-Hawthorne-Division,White,1-BR,Y,2016
+Belmont-Hawthorne-Division,White,2-BR,Y,2016
+Belmont-Hawthorne-Division,White,3-BR,N,2016
+Belmont-Hawthorne-Division,White,Homeownership,N,2016
+Belmont-Hawthorne-Division,Black,Studio,N,2016
+Belmont-Hawthorne-Division,Black,1-BR,N,2016
+Belmont-Hawthorne-Division,Black,2-BR,N,2016
+Belmont-Hawthorne-Division,Black,3-BR,N,2016
+Belmont-Hawthorne-Division,Black,Homeownership,N,2016
+Belmont-Hawthorne-Division,Latino,Studio,N,2016
+Belmont-Hawthorne-Division,Latino,1-BR,N,2016
+Belmont-Hawthorne-Division,Latino,2-BR,N,2016
+Belmont-Hawthorne-Division,Latino,3-BR,N,2016
+Belmont-Hawthorne-Division,Latino,Homeownership,N,2016
+Belmont-Hawthorne-Division,Native American,Studio,N,2016
+Belmont-Hawthorne-Division,Native American,1-BR,N,2016
+Belmont-Hawthorne-Division,Native American,2-BR,N,2016
+Belmont-Hawthorne-Division,Native American,3-BR,N,2016
+Belmont-Hawthorne-Division,Native American,Homeownership,N,2016
+Belmont-Hawthorne-Division,Asian,Studio,Y,2016
+Belmont-Hawthorne-Division,Asian,1-BR,Y,2016
+Belmont-Hawthorne-Division,Asian,2-BR,N,2016
+Belmont-Hawthorne-Division,Asian,3-BR,N,2016
+Belmont-Hawthorne-Division,Asian,Homeownership,N,2016
+Belmont-Hawthorne-Division,Senior,Studio,N,2016
+Belmont-Hawthorne-Division,Senior,1-BR,N,2016
+Belmont-Hawthorne-Division,Senior,2-BR,N,2016
+Belmont-Hawthorne-Division,Senior,3-BR,N,2016
+Belmont-Hawthorne-Division,Senior,Homeownership,N,2016
+Belmont-Hawthorne-Division,Single Mother,Studio,N,2016
+Belmont-Hawthorne-Division,Single Mother,1-BR,N,2016
+Belmont-Hawthorne-Division,Single Mother,2-BR,N,2016
+Belmont-Hawthorne-Division,Single Mother,3-BR,N,2016
+Belmont-Hawthorne-Division,Single Mother,Homeownership,N,2016
+Belmont-Hawthorne-Division,Foreign-Born,Studio,Y,2016
+Belmont-Hawthorne-Division,Foreign-Born,1-BR,N,2016
+Belmont-Hawthorne-Division,Foreign-Born,2-BR,N,2016
+Belmont-Hawthorne-Division,Foreign-Born,3-BR,N,2016
+Belmont-Hawthorne-Division,Foreign-Born,Homeownership,N,2016
+Central City,Avg. Portland Household,Studio,Y,2016
+Central City,Avg. Portland Household,1-BR,N,2016
+Central City,Avg. Portland Household,2-BR,N,2016
+Central City,Avg. Portland Household,3-BR,N,2016
+Central City,Avg. Portland Household,Homeownership,N,2016
+Central City,3-Person Extremely Low-Income,Studio,N,2016
+Central City,3-Person Extremely Low-Income,1-BR,N,2016
+Central City,3-Person Extremely Low-Income,2-BR,N,2016
+Central City,3-Person Extremely Low-Income,3-BR,N,2016
+Central City,3-Person Extremely Low-Income,Homeownership,N,2016
+Central City,3-Person Low-Income,Studio,N,2016
+Central City,3-Person Low-Income,1-BR,N,2016
+Central City,3-Person Low-Income,2-BR,N,2016
+Central City,3-Person Low-Income,3-BR,N,2016
+Central City,3-Person Low-Income,Homeownership,N,2016
+Central City,3-Person Moderate-Income,Studio,Y,2016
+Central City,3-Person Moderate-Income,1-BR,N,2016
+Central City,3-Person Moderate-Income,2-BR,N,2016
+Central City,3-Person Moderate-Income,3-BR,N,2016
+Central City,3-Person Moderate-Income,Homeownership,N,2016
+Central City,Couple with Family,Studio,Y,2016
+Central City,Couple with Family,1-BR,Y,2016
+Central City,Couple with Family,2-BR,N,2016
+Central City,Couple with Family,3-BR,N,2016
+Central City,Couple with Family,Homeownership,Y,2016
+Central City,White,Studio,Y,2016
+Central City,White,1-BR,N,2016
+Central City,White,2-BR,N,2016
+Central City,White,3-BR,N,2016
+Central City,White,Homeownership,N,2016
+Central City,Black,Studio,N,2016
+Central City,Black,1-BR,N,2016
+Central City,Black,2-BR,N,2016
+Central City,Black,3-BR,N,2016
+Central City,Black,Homeownership,N,2016
+Central City,Latino,Studio,N,2016
+Central City,Latino,1-BR,N,2016
+Central City,Latino,2-BR,N,2016
+Central City,Latino,3-BR,N,2016
+Central City,Latino,Homeownership,N,2016
+Central City,Native American,Studio,N,2016
+Central City,Native American,1-BR,N,2016
+Central City,Native American,2-BR,N,2016
+Central City,Native American,3-BR,N,2016
+Central City,Native American,Homeownership,N,2016
+Central City,Asian,Studio,Y,2016
+Central City,Asian,1-BR,N,2016
+Central City,Asian,2-BR,N,2016
+Central City,Asian,3-BR,N,2016
+Central City,Asian,Homeownership,N,2016
+Central City,Senior,Studio,N,2016
+Central City,Senior,1-BR,N,2016
+Central City,Senior,2-BR,N,2016
+Central City,Senior,3-BR,N,2016
+Central City,Senior,Homeownership,N,2016
+Central City,Single Mother,Studio,N,2016
+Central City,Single Mother,1-BR,N,2016
+Central City,Single Mother,2-BR,N,2016
+Central City,Single Mother,3-BR,N,2016
+Central City,Single Mother,Homeownership,N,2016
+Central City,Foreign-Born,Studio,N,2016
+Central City,Foreign-Born,1-BR,N,2016
+Central City,Foreign-Born,2-BR,N,2016
+Central City,Foreign-Born,3-BR,N,2016
+Central City,Foreign-Born,Homeownership,N,2016
+Forest Park-Northwest Hills,Avg. Portland Household,Studio,0,2016
+Forest Park-Northwest Hills,Avg. Portland Household,1-BR,N,2016
+Forest Park-Northwest Hills,Avg. Portland Household,2-BR,N,2016
+Forest Park-Northwest Hills,Avg. Portland Household,3-BR,0,2016
+Forest Park-Northwest Hills,Avg. Portland Household,Homeownership,N,2016
+Forest Park-Northwest Hills,3-Person Extremely Low-Income,Studio,N,2016
+Forest Park-Northwest Hills,3-Person Extremely Low-Income,1-BR,N,2016
+Forest Park-Northwest Hills,3-Person Extremely Low-Income,2-BR,N,2016
+Forest Park-Northwest Hills,3-Person Extremely Low-Income,3-BR,N,2016
+Forest Park-Northwest Hills,3-Person Extremely Low-Income,Homeownership,N,2016
+Forest Park-Northwest Hills,3-Person Low-Income,Studio,0,2016
+Forest Park-Northwest Hills,3-Person Low-Income,1-BR,N,2016
+Forest Park-Northwest Hills,3-Person Low-Income,2-BR,N,2016
+Forest Park-Northwest Hills,3-Person Low-Income,3-BR,0,2016
+Forest Park-Northwest Hills,3-Person Low-Income,Homeownership,N,2016
+Forest Park-Northwest Hills,3-Person Moderate-Income,Studio,0,2016
+Forest Park-Northwest Hills,3-Person Moderate-Income,1-BR,N,2016
+Forest Park-Northwest Hills,3-Person Moderate-Income,2-BR,N,2016
+Forest Park-Northwest Hills,3-Person Moderate-Income,3-BR,0,2016
+Forest Park-Northwest Hills,3-Person Moderate-Income,Homeownership,N,2016
+Forest Park-Northwest Hills,Couple with Family,Studio,0,2016
+Forest Park-Northwest Hills,Couple with Family,1-BR,Y,2016
+Forest Park-Northwest Hills,Couple with Family,2-BR,Y,2016
+Forest Park-Northwest Hills,Couple with Family,3-BR,0,2016
+Forest Park-Northwest Hills,Couple with Family,Homeownership,N,2016
+Forest Park-Northwest Hills,White,Studio,0,2016
+Forest Park-Northwest Hills,White,1-BR,Y,2016
+Forest Park-Northwest Hills,White,2-BR,N,2016
+Forest Park-Northwest Hills,White,3-BR,0,2016
+Forest Park-Northwest Hills,White,Homeownership,N,2016
+Forest Park-Northwest Hills,Black,Studio,0,2016
+Forest Park-Northwest Hills,Black,1-BR,N,2016
+Forest Park-Northwest Hills,Black,2-BR,N,2016
+Forest Park-Northwest Hills,Black,3-BR,0,2016
+Forest Park-Northwest Hills,Black,Homeownership,N,2016
+Forest Park-Northwest Hills,Latino,Studio,0,2016
+Forest Park-Northwest Hills,Latino,1-BR,N,2016
+Forest Park-Northwest Hills,Latino,2-BR,N,2016
+Forest Park-Northwest Hills,Latino,3-BR,0,2016
+Forest Park-Northwest Hills,Latino,Homeownership,N,2016
+Forest Park-Northwest Hills,Native American,Studio,0,2016
+Forest Park-Northwest Hills,Native American,1-BR,N,2016
+Forest Park-Northwest Hills,Native American,2-BR,N,2016
+Forest Park-Northwest Hills,Native American,3-BR,0,2016
+Forest Park-Northwest Hills,Native American,Homeownership,N,2016
+Forest Park-Northwest Hills,Asian,Studio,0,2016
+Forest Park-Northwest Hills,Asian,1-BR,N,2016
+Forest Park-Northwest Hills,Asian,2-BR,N,2016
+Forest Park-Northwest Hills,Asian,3-BR,0,2016
+Forest Park-Northwest Hills,Asian,Homeownership,N,2016
+Forest Park-Northwest Hills,Senior,Studio,0,2016
+Forest Park-Northwest Hills,Senior,1-BR,N,2016
+Forest Park-Northwest Hills,Senior,2-BR,N,2016
+Forest Park-Northwest Hills,Senior,3-BR,0,2016
+Forest Park-Northwest Hills,Senior,Homeownership,N,2016
+Forest Park-Northwest Hills,Single Mother,Studio,0,2016
+Forest Park-Northwest Hills,Single Mother,1-BR,N,2016
+Forest Park-Northwest Hills,Single Mother,2-BR,N,2016
+Forest Park-Northwest Hills,Single Mother,3-BR,0,2016
+Forest Park-Northwest Hills,Single Mother,Homeownership,N,2016
+Forest Park-Northwest Hills,Foreign-Born,Studio,0,2016
+Forest Park-Northwest Hills,Foreign-Born,1-BR,N,2016
+Forest Park-Northwest Hills,Foreign-Born,2-BR,N,2016
+Forest Park-Northwest Hills,Foreign-Born,3-BR,0,2016
+Forest Park-Northwest Hills,Foreign-Born,Homeownership,N,2016
+Gateway,Avg. Portland Household,Studio,Y,2016
+Gateway,Avg. Portland Household,1-BR,Y,2016
+Gateway,Avg. Portland Household,2-BR,Y,2016
+Gateway,Avg. Portland Household,3-BR,N,2016
+Gateway,Avg. Portland Household,Homeownership,Y,2016
+Gateway,3-Person Extremely Low-Income,Studio,Y,2016
+Gateway,3-Person Extremely Low-Income,1-BR,N,2016
+Gateway,3-Person Extremely Low-Income,2-BR,N,2016
+Gateway,3-Person Extremely Low-Income,3-BR,N,2016
+Gateway,3-Person Extremely Low-Income,Homeownership,N,2016
+Gateway,3-Person Low-Income,Studio,Y,2016
+Gateway,3-Person Low-Income,1-BR,Y,2016
+Gateway,3-Person Low-Income,2-BR,N,2016
+Gateway,3-Person Low-Income,3-BR,N,2016
+Gateway,3-Person Low-Income,Homeownership,N,2016
+Gateway,3-Person Moderate-Income,Studio,Y,2016
+Gateway,3-Person Moderate-Income,1-BR,Y,2016
+Gateway,3-Person Moderate-Income,2-BR,Y,2016
+Gateway,3-Person Moderate-Income,3-BR,N,2016
+Gateway,3-Person Moderate-Income,Homeownership,Y,2016
+Gateway,Couple with Family,Studio,Y,2016
+Gateway,Couple with Family,1-BR,Y,2016
+Gateway,Couple with Family,2-BR,Y,2016
+Gateway,Couple with Family,3-BR,Y,2016
+Gateway,Couple with Family,Homeownership,Y,2016
+Gateway,White,Studio,Y,2016
+Gateway,White,1-BR,Y,2016
+Gateway,White,2-BR,Y,2016
+Gateway,White,3-BR,Y,2016
+Gateway,White,Homeownership,Y,2016
+Gateway,Black,Studio,Y,2016
+Gateway,Black,1-BR,N,2016
+Gateway,Black,2-BR,N,2016
+Gateway,Black,3-BR,N,2016
+Gateway,Black,Homeownership,N,2016
+Gateway,Latino,Studio,Y,2016
+Gateway,Latino,1-BR,Y,2016
+Gateway,Latino,2-BR,N,2016
+Gateway,Latino,3-BR,N,2016
+Gateway,Latino,Homeownership,N,2016
+Gateway,Native American,Studio,Y,2016
+Gateway,Native American,1-BR,N,2016
+Gateway,Native American,2-BR,N,2016
+Gateway,Native American,3-BR,N,2016
+Gateway,Native American,Homeownership,N,2016
+Gateway,Asian,Studio,Y,2016
+Gateway,Asian,1-BR,Y,2016
+Gateway,Asian,2-BR,Y,2016
+Gateway,Asian,3-BR,N,2016
+Gateway,Asian,Homeownership,Y,2016
+Gateway,Senior,Studio,Y,2016
+Gateway,Senior,1-BR,Y,2016
+Gateway,Senior,2-BR,N,2016
+Gateway,Senior,3-BR,N,2016
+Gateway,Senior,Homeownership,N,2016
+Gateway,Single Mother,Studio,Y,2016
+Gateway,Single Mother,1-BR,N,2016
+Gateway,Single Mother,2-BR,N,2016
+Gateway,Single Mother,3-BR,N,2016
+Gateway,Single Mother,Homeownership,N,2016
+Gateway,Foreign-Born,Studio,Y,2016
+Gateway,Foreign-Born,1-BR,Y,2016
+Gateway,Foreign-Born,2-BR,N,2016
+Gateway,Foreign-Born,3-BR,N,2016
+Gateway,Foreign-Born,Homeownership,N,2016
+Hayden Island,Avg. Portland Household,Studio,0,2016
+Hayden Island,Avg. Portland Household,1-BR,N,2016
+Hayden Island,Avg. Portland Household,2-BR,N,2016
+Hayden Island,Avg. Portland Household,3-BR,0,2016
+Hayden Island,Avg. Portland Household,Homeownership,Y,2016
+Hayden Island,3-Person Extremely Low-Income,Studio,0,2016
+Hayden Island,3-Person Extremely Low-Income,1-BR,N,2016
+Hayden Island,3-Person Extremely Low-Income,2-BR,N,2016
+Hayden Island,3-Person Extremely Low-Income,3-BR,0,2016
+Hayden Island,3-Person Extremely Low-Income,Homeownership,N,2016
+Hayden Island,3-Person Low-Income,Studio,0,2016
+Hayden Island,3-Person Low-Income,1-BR,N,2016
+Hayden Island,3-Person Low-Income,2-BR,N,2016
+Hayden Island,3-Person Low-Income,3-BR,0,2016
+Hayden Island,3-Person Low-Income,Homeownership,N,2016
+Hayden Island,3-Person Moderate-Income,Studio,0,2016
+Hayden Island,3-Person Moderate-Income,1-BR,N,2016
+Hayden Island,3-Person Moderate-Income,2-BR,N,2016
+Hayden Island,3-Person Moderate-Income,3-BR,0,2016
+Hayden Island,3-Person Moderate-Income,Homeownership,Y,2016
+Hayden Island,Couple with Family,Studio,0,2016
+Hayden Island,Couple with Family,1-BR,Y,2016
+Hayden Island,Couple with Family,2-BR,N,2016
+Hayden Island,Couple with Family,3-BR,0,2016
+Hayden Island,Couple with Family,Homeownership,Y,2016
+Hayden Island,White,Studio,0,2016
+Hayden Island,White,1-BR,N,2016
+Hayden Island,White,2-BR,N,2016
+Hayden Island,White,3-BR,0,2016
+Hayden Island,White,Homeownership,Y,2016
+Hayden Island,Black,Studio,0,2016
+Hayden Island,Black,1-BR,N,2016
+Hayden Island,Black,2-BR,N,2016
+Hayden Island,Black,3-BR,0,2016
+Hayden Island,Black,Homeownership,N,2016
+Hayden Island,Latino,Studio,0,2016
+Hayden Island,Latino,1-BR,N,2016
+Hayden Island,Latino,2-BR,N,2016
+Hayden Island,Latino,3-BR,0,2016
+Hayden Island,Latino,Homeownership,N,2016
+Hayden Island,Native American,Studio,0,2016
+Hayden Island,Native American,1-BR,N,2016
+Hayden Island,Native American,2-BR,N,2016
+Hayden Island,Native American,3-BR,0,2016
+Hayden Island,Native American,Homeownership,N,2016
+Hayden Island,Asian,Studio,0,2016
+Hayden Island,Asian,1-BR,N,2016
+Hayden Island,Asian,2-BR,N,2016
+Hayden Island,Asian,3-BR,0,2016
+Hayden Island,Asian,Homeownership,Y,2016
+Hayden Island,Senior,Studio,0,2016
+Hayden Island,Senior,1-BR,N,2016
+Hayden Island,Senior,2-BR,N,2016
+Hayden Island,Senior,3-BR,0,2016
+Hayden Island,Senior,Homeownership,N,2016
+Hayden Island,Single Mother,Studio,0,2016
+Hayden Island,Single Mother,1-BR,N,2016
+Hayden Island,Single Mother,2-BR,N,2016
+Hayden Island,Single Mother,3-BR,0,2016
+Hayden Island,Single Mother,Homeownership,N,2016
+Hayden Island,Foreign-Born,Studio,0,2016
+Hayden Island,Foreign-Born,1-BR,N,2016
+Hayden Island,Foreign-Born,2-BR,N,2016
+Hayden Island,Foreign-Born,3-BR,0,2016
+Hayden Island,Foreign-Born,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Avg. Portland Household,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Avg. Portland Household,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Avg. Portland Household,2-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Avg. Portland Household,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Avg. Portland Household,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Extremely Low-Income,Studio,0,2016
+Hillsdale-Multnomah-Barbur,3-Person Extremely Low-Income,1-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Extremely Low-Income,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Extremely Low-Income,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Extremely Low-Income,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Low-Income,Studio,0,2016
+Hillsdale-Multnomah-Barbur,3-Person Low-Income,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,3-Person Low-Income,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Low-Income,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Low-Income,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Moderate-Income,Studio,0,2016
+Hillsdale-Multnomah-Barbur,3-Person Moderate-Income,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,3-Person Moderate-Income,2-BR,Y,2016
+Hillsdale-Multnomah-Barbur,3-Person Moderate-Income,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,3-Person Moderate-Income,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Couple with Family,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Couple with Family,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Couple with Family,2-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Couple with Family,3-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Couple with Family,Homeownership,Y,2016
+Hillsdale-Multnomah-Barbur,White,Studio,0,2016
+Hillsdale-Multnomah-Barbur,White,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,White,2-BR,Y,2016
+Hillsdale-Multnomah-Barbur,White,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,White,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Black,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Black,1-BR,N,2016
+Hillsdale-Multnomah-Barbur,Black,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Black,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Black,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Latino,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Latino,1-BR,N,2016
+Hillsdale-Multnomah-Barbur,Latino,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Latino,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Latino,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Native American,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Native American,1-BR,N,2016
+Hillsdale-Multnomah-Barbur,Native American,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Native American,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Native American,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Asian,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Asian,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Asian,2-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Asian,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Asian,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Senior,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Senior,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Senior,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Senior,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Senior,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Single Mother,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Single Mother,1-BR,N,2016
+Hillsdale-Multnomah-Barbur,Single Mother,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Single Mother,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Single Mother,Homeownership,N,2016
+Hillsdale-Multnomah-Barbur,Foreign-Born,Studio,0,2016
+Hillsdale-Multnomah-Barbur,Foreign-Born,1-BR,Y,2016
+Hillsdale-Multnomah-Barbur,Foreign-Born,2-BR,N,2016
+Hillsdale-Multnomah-Barbur,Foreign-Born,3-BR,N,2016
+Hillsdale-Multnomah-Barbur,Foreign-Born,Homeownership,N,2016
+Hollywood,Avg. Portland Household,Studio,Y,2016
+Hollywood,Avg. Portland Household,1-BR,Y,2016
+Hollywood,Avg. Portland Household,2-BR,N,2016
+Hollywood,Avg. Portland Household,3-BR,N,2016
+Hollywood,Avg. Portland Household,Homeownership,N,2016
+Hollywood,3-Person Extremely Low-Income,Studio,N,2016
+Hollywood,3-Person Extremely Low-Income,1-BR,N,2016
+Hollywood,3-Person Extremely Low-Income,2-BR,N,2016
+Hollywood,3-Person Extremely Low-Income,3-BR,N,2016
+Hollywood,3-Person Extremely Low-Income,Homeownership,N,2016
+Hollywood,3-Person Low-Income,Studio,N,2016
+Hollywood,3-Person Low-Income,1-BR,N,2016
+Hollywood,3-Person Low-Income,2-BR,N,2016
+Hollywood,3-Person Low-Income,3-BR,N,2016
+Hollywood,3-Person Low-Income,Homeownership,N,2016
+Hollywood,3-Person Moderate-Income,Studio,Y,2016
+Hollywood,3-Person Moderate-Income,1-BR,Y,2016
+Hollywood,3-Person Moderate-Income,2-BR,N,2016
+Hollywood,3-Person Moderate-Income,3-BR,N,2016
+Hollywood,3-Person Moderate-Income,Homeownership,N,2016
+Hollywood,Couple with Family,Studio,Y,2016
+Hollywood,Couple with Family,1-BR,Y,2016
+Hollywood,Couple with Family,2-BR,Y,2016
+Hollywood,Couple with Family,3-BR,Y,2016
+Hollywood,Couple with Family,Homeownership,N,2016
+Hollywood,White,Studio,Y,2016
+Hollywood,White,1-BR,Y,2016
+Hollywood,White,2-BR,N,2016
+Hollywood,White,3-BR,N,2016
+Hollywood,White,Homeownership,N,2016
+Hollywood,Black,Studio,N,2016
+Hollywood,Black,1-BR,N,2016
+Hollywood,Black,2-BR,N,2016
+Hollywood,Black,3-BR,N,2016
+Hollywood,Black,Homeownership,N,2016
+Hollywood,Latino,Studio,N,2016
+Hollywood,Latino,1-BR,N,2016
+Hollywood,Latino,2-BR,N,2016
+Hollywood,Latino,3-BR,N,2016
+Hollywood,Latino,Homeownership,N,2016
+Hollywood,Native American,Studio,N,2016
+Hollywood,Native American,1-BR,N,2016
+Hollywood,Native American,2-BR,N,2016
+Hollywood,Native American,3-BR,N,2016
+Hollywood,Native American,Homeownership,N,2016
+Hollywood,Asian,Studio,Y,2016
+Hollywood,Asian,1-BR,Y,2016
+Hollywood,Asian,2-BR,N,2016
+Hollywood,Asian,3-BR,N,2016
+Hollywood,Asian,Homeownership,N,2016
+Hollywood,Senior,Studio,N,2016
+Hollywood,Senior,1-BR,N,2016
+Hollywood,Senior,2-BR,N,2016
+Hollywood,Senior,3-BR,N,2016
+Hollywood,Senior,Homeownership,N,2016
+Hollywood,Single Mother,Studio,N,2016
+Hollywood,Single Mother,1-BR,N,2016
+Hollywood,Single Mother,2-BR,N,2016
+Hollywood,Single Mother,3-BR,N,2016
+Hollywood,Single Mother,Homeownership,N,2016
+Hollywood,Foreign-Born,Studio,N,2016
+Hollywood,Foreign-Born,1-BR,N,2016
+Hollywood,Foreign-Born,2-BR,N,2016
+Hollywood,Foreign-Born,3-BR,N,2016
+Hollywood,Foreign-Born,Homeownership,N,2016
+Interstate Corridor,Avg. Portland Household,Studio,Y,2016
+Interstate Corridor,Avg. Portland Household,1-BR,Y,2016
+Interstate Corridor,Avg. Portland Household,2-BR,N,2016
+Interstate Corridor,Avg. Portland Household,3-BR,Y,2016
+Interstate Corridor,Avg. Portland Household,Homeownership,N,2016
+Interstate Corridor,3-Person Extremely Low-Income,Studio,N,2016
+Interstate Corridor,3-Person Extremely Low-Income,1-BR,N,2016
+Interstate Corridor,3-Person Extremely Low-Income,2-BR,N,2016
+Interstate Corridor,3-Person Extremely Low-Income,3-BR,N,2016
+Interstate Corridor,3-Person Extremely Low-Income,Homeownership,N,2016
+Interstate Corridor,3-Person Low-Income,Studio,N,2016
+Interstate Corridor,3-Person Low-Income,1-BR,N,2016
+Interstate Corridor,3-Person Low-Income,2-BR,N,2016
+Interstate Corridor,3-Person Low-Income,3-BR,N,2016
+Interstate Corridor,3-Person Low-Income,Homeownership,N,2016
+Interstate Corridor,3-Person Moderate-Income,Studio,Y,2016
+Interstate Corridor,3-Person Moderate-Income,1-BR,N,2016
+Interstate Corridor,3-Person Moderate-Income,2-BR,N,2016
+Interstate Corridor,3-Person Moderate-Income,3-BR,Y,2016
+Interstate Corridor,3-Person Moderate-Income,Homeownership,N,2016
+Interstate Corridor,Couple with Family,Studio,Y,2016
+Interstate Corridor,Couple with Family,1-BR,Y,2016
+Interstate Corridor,Couple with Family,2-BR,Y,2016
+Interstate Corridor,Couple with Family,3-BR,Y,2016
+Interstate Corridor,Couple with Family,Homeownership,Y,2016
+Interstate Corridor,White,Studio,Y,2016
+Interstate Corridor,White,1-BR,Y,2016
+Interstate Corridor,White,2-BR,N,2016
+Interstate Corridor,White,3-BR,Y,2016
+Interstate Corridor,White,Homeownership,N,2016
+Interstate Corridor,Black,Studio,N,2016
+Interstate Corridor,Black,1-BR,N,2016
+Interstate Corridor,Black,2-BR,N,2016
+Interstate Corridor,Black,3-BR,N,2016
+Interstate Corridor,Black,Homeownership,N,2016
+Interstate Corridor,Latino,Studio,N,2016
+Interstate Corridor,Latino,1-BR,N,2016
+Interstate Corridor,Latino,2-BR,N,2016
+Interstate Corridor,Latino,3-BR,N,2016
+Interstate Corridor,Latino,Homeownership,N,2016
+Interstate Corridor,Native American,Studio,N,2016
+Interstate Corridor,Native American,1-BR,N,2016
+Interstate Corridor,Native American,2-BR,N,2016
+Interstate Corridor,Native American,3-BR,N,2016
+Interstate Corridor,Native American,Homeownership,N,2016
+Interstate Corridor,Asian,Studio,Y,2016
+Interstate Corridor,Asian,1-BR,Y,2016
+Interstate Corridor,Asian,2-BR,N,2016
+Interstate Corridor,Asian,3-BR,Y,2016
+Interstate Corridor,Asian,Homeownership,N,2016
+Interstate Corridor,Senior,Studio,N,2016
+Interstate Corridor,Senior,1-BR,N,2016
+Interstate Corridor,Senior,2-BR,N,2016
+Interstate Corridor,Senior,3-BR,N,2016
+Interstate Corridor,Senior,Homeownership,N,2016
+Interstate Corridor,Single Mother,Studio,N,2016
+Interstate Corridor,Single Mother,1-BR,N,2016
+Interstate Corridor,Single Mother,2-BR,N,2016
+Interstate Corridor,Single Mother,3-BR,N,2016
+Interstate Corridor,Single Mother,Homeownership,N,2016
+Interstate Corridor,Foreign-Born,Studio,N,2016
+Interstate Corridor,Foreign-Born,1-BR,N,2016
+Interstate Corridor,Foreign-Born,2-BR,N,2016
+Interstate Corridor,Foreign-Born,3-BR,N,2016
+Interstate Corridor,Foreign-Born,Homeownership,N,2016
+Lents-Foster,Avg. Portland Household,Studio,Y,2016
+Lents-Foster,Avg. Portland Household,1-BR,Y,2016
+Lents-Foster,Avg. Portland Household,2-BR,Y,2016
+Lents-Foster,Avg. Portland Household,3-BR,N,2016
+Lents-Foster,Avg. Portland Household,Homeownership,Y,2016
+Lents-Foster,3-Person Extremely Low-Income,Studio,N,2016
+Lents-Foster,3-Person Extremely Low-Income,1-BR,N,2016
+Lents-Foster,3-Person Extremely Low-Income,2-BR,N,2016
+Lents-Foster,3-Person Extremely Low-Income,3-BR,N,2016
+Lents-Foster,3-Person Extremely Low-Income,Homeownership,N,2016
+Lents-Foster,3-Person Low-Income,Studio,Y,2016
+Lents-Foster,3-Person Low-Income,1-BR,Y,2016
+Lents-Foster,3-Person Low-Income,2-BR,N,2016
+Lents-Foster,3-Person Low-Income,3-BR,N,2016
+Lents-Foster,3-Person Low-Income,Homeownership,N,2016
+Lents-Foster,3-Person Moderate-Income,Studio,Y,2016
+Lents-Foster,3-Person Moderate-Income,1-BR,Y,2016
+Lents-Foster,3-Person Moderate-Income,2-BR,Y,2016
+Lents-Foster,3-Person Moderate-Income,3-BR,N,2016
+Lents-Foster,3-Person Moderate-Income,Homeownership,Y,2016
+Lents-Foster,Couple with Family,Studio,Y,2016
+Lents-Foster,Couple with Family,1-BR,Y,2016
+Lents-Foster,Couple with Family,2-BR,Y,2016
+Lents-Foster,Couple with Family,3-BR,Y,2016
+Lents-Foster,Couple with Family,Homeownership,Y,2016
+Lents-Foster,White,Studio,Y,2016
+Lents-Foster,White,1-BR,Y,2016
+Lents-Foster,White,2-BR,Y,2016
+Lents-Foster,White,3-BR,Y,2016
+Lents-Foster,White,Homeownership,Y,2016
+Lents-Foster,Black,Studio,N,2016
+Lents-Foster,Black,1-BR,N,2016
+Lents-Foster,Black,2-BR,N,2016
+Lents-Foster,Black,3-BR,N,2016
+Lents-Foster,Black,Homeownership,N,2016
+Lents-Foster,Latino,Studio,N,2016
+Lents-Foster,Latino,1-BR,Y,2016
+Lents-Foster,Latino,2-BR,N,2016
+Lents-Foster,Latino,3-BR,N,2016
+Lents-Foster,Latino,Homeownership,N,2016
+Lents-Foster,Native American,Studio,N,2016
+Lents-Foster,Native American,1-BR,N,2016
+Lents-Foster,Native American,2-BR,N,2016
+Lents-Foster,Native American,3-BR,N,2016
+Lents-Foster,Native American,Homeownership,N,2016
+Lents-Foster,Asian,Studio,Y,2016
+Lents-Foster,Asian,1-BR,Y,2016
+Lents-Foster,Asian,2-BR,Y,2016
+Lents-Foster,Asian,3-BR,N,2016
+Lents-Foster,Asian,Homeownership,Y,2016
+Lents-Foster,Senior,Studio,N,2016
+Lents-Foster,Senior,1-BR,Y,2016
+Lents-Foster,Senior,2-BR,N,2016
+Lents-Foster,Senior,3-BR,N,2016
+Lents-Foster,Senior,Homeownership,N,2016
+Lents-Foster,Single Mother,Studio,N,2016
+Lents-Foster,Single Mother,1-BR,N,2016
+Lents-Foster,Single Mother,2-BR,N,2016
+Lents-Foster,Single Mother,3-BR,N,2016
+Lents-Foster,Single Mother,Homeownership,N,2016
+Lents-Foster,Foreign-Born,Studio,Y,2016
+Lents-Foster,Foreign-Born,1-BR,Y,2016
+Lents-Foster,Foreign-Born,2-BR,N,2016
+Lents-Foster,Foreign-Born,3-BR,N,2016
+Lents-Foster,Foreign-Born,Homeownership,N,2016
+MLK-Alberta,Avg. Portland Household,Studio,Y,2016
+MLK-Alberta,Avg. Portland Household,1-BR,Y,2016
+MLK-Alberta,Avg. Portland Household,2-BR,N,2016
+MLK-Alberta,Avg. Portland Household,3-BR,Y,2016
+MLK-Alberta,Avg. Portland Household,Homeownership,N,2016
+MLK-Alberta,3-Person Extremely Low-Income,Studio,N,2016
+MLK-Alberta,3-Person Extremely Low-Income,1-BR,N,2016
+MLK-Alberta,3-Person Extremely Low-Income,2-BR,N,2016
+MLK-Alberta,3-Person Extremely Low-Income,3-BR,N,2016
+MLK-Alberta,3-Person Extremely Low-Income,Homeownership,N,2016
+MLK-Alberta,3-Person Low-Income,Studio,N,2016
+MLK-Alberta,3-Person Low-Income,1-BR,N,2016
+MLK-Alberta,3-Person Low-Income,2-BR,N,2016
+MLK-Alberta,3-Person Low-Income,3-BR,Y,2016
+MLK-Alberta,3-Person Low-Income,Homeownership,N,2016
+MLK-Alberta,3-Person Moderate-Income,Studio,Y,2016
+MLK-Alberta,3-Person Moderate-Income,1-BR,Y,2016
+MLK-Alberta,3-Person Moderate-Income,2-BR,N,2016
+MLK-Alberta,3-Person Moderate-Income,3-BR,Y,2016
+MLK-Alberta,3-Person Moderate-Income,Homeownership,N,2016
+MLK-Alberta,Couple with Family,Studio,Y,2016
+MLK-Alberta,Couple with Family,1-BR,Y,2016
+MLK-Alberta,Couple with Family,2-BR,Y,2016
+MLK-Alberta,Couple with Family,3-BR,Y,2016
+MLK-Alberta,Couple with Family,Homeownership,Y,2016
+MLK-Alberta,White,Studio,Y,2016
+MLK-Alberta,White,1-BR,Y,2016
+MLK-Alberta,White,2-BR,N,2016
+MLK-Alberta,White,3-BR,Y,2016
+MLK-Alberta,White,Homeownership,N,2016
+MLK-Alberta,Black,Studio,N,2016
+MLK-Alberta,Black,1-BR,N,2016
+MLK-Alberta,Black,2-BR,N,2016
+MLK-Alberta,Black,3-BR,N,2016
+MLK-Alberta,Black,Homeownership,N,2016
+MLK-Alberta,Latino,Studio,N,2016
+MLK-Alberta,Latino,1-BR,N,2016
+MLK-Alberta,Latino,2-BR,N,2016
+MLK-Alberta,Latino,3-BR,Y,2016
+MLK-Alberta,Latino,Homeownership,N,2016
+MLK-Alberta,Native American,Studio,N,2016
+MLK-Alberta,Native American,1-BR,N,2016
+MLK-Alberta,Native American,2-BR,N,2016
+MLK-Alberta,Native American,3-BR,N,2016
+MLK-Alberta,Native American,Homeownership,N,2016
+MLK-Alberta,Asian,Studio,Y,2016
+MLK-Alberta,Asian,1-BR,Y,2016
+MLK-Alberta,Asian,2-BR,N,2016
+MLK-Alberta,Asian,3-BR,Y,2016
+MLK-Alberta,Asian,Homeownership,N,2016
+MLK-Alberta,Senior,Studio,N,2016
+MLK-Alberta,Senior,1-BR,N,2016
+MLK-Alberta,Senior,2-BR,N,2016
+MLK-Alberta,Senior,3-BR,Y,2016
+MLK-Alberta,Senior,Homeownership,N,2016
+MLK-Alberta,Single Mother,Studio,N,2016
+MLK-Alberta,Single Mother,1-BR,N,2016
+MLK-Alberta,Single Mother,2-BR,N,2016
+MLK-Alberta,Single Mother,3-BR,N,2016
+MLK-Alberta,Single Mother,Homeownership,N,2016
+MLK-Alberta,Foreign-Born,Studio,N,2016
+MLK-Alberta,Foreign-Born,1-BR,N,2016
+MLK-Alberta,Foreign-Born,2-BR,N,2016
+MLK-Alberta,Foreign-Born,3-BR,Y,2016
+MLK-Alberta,Foreign-Born,Homeownership,N,2016
+Montavilla,Avg. Portland Household,Studio,Y,2016
+Montavilla,Avg. Portland Household,1-BR,Y,2016
+Montavilla,Avg. Portland Household,2-BR,N,2016
+Montavilla,Avg. Portland Household,3-BR,Y,2016
+Montavilla,Avg. Portland Household,Homeownership,N,2016
+Montavilla,3-Person Extremely Low-Income,Studio,N,2016
+Montavilla,3-Person Extremely Low-Income,1-BR,N,2016
+Montavilla,3-Person Extremely Low-Income,2-BR,N,2016
+Montavilla,3-Person Extremely Low-Income,3-BR,N,2016
+Montavilla,3-Person Extremely Low-Income,Homeownership,N,2016
+Montavilla,3-Person Low-Income,Studio,Y,2016
+Montavilla,3-Person Low-Income,1-BR,Y,2016
+Montavilla,3-Person Low-Income,2-BR,N,2016
+Montavilla,3-Person Low-Income,3-BR,N,2016
+Montavilla,3-Person Low-Income,Homeownership,N,2016
+Montavilla,3-Person Moderate-Income,Studio,Y,2016
+Montavilla,3-Person Moderate-Income,1-BR,Y,2016
+Montavilla,3-Person Moderate-Income,2-BR,Y,2016
+Montavilla,3-Person Moderate-Income,3-BR,N,2016
+Montavilla,3-Person Moderate-Income,Homeownership,N,2016
+Montavilla,Couple with Family,Studio,Y,2016
+Montavilla,Couple with Family,1-BR,Y,2016
+Montavilla,Couple with Family,2-BR,Y,2016
+Montavilla,Couple with Family,3-BR,Y,2016
+Montavilla,Couple with Family,Homeownership,Y,2016
+Montavilla,White,Studio,Y,2016
+Montavilla,White,1-BR,Y,2016
+Montavilla,White,2-BR,Y,2016
+Montavilla,White,3-BR,Y,2016
+Montavilla,White,Homeownership,N,2016
+Montavilla,Black,Studio,N,2016
+Montavilla,Black,1-BR,N,2016
+Montavilla,Black,2-BR,N,2016
+Montavilla,Black,3-BR,N,2016
+Montavilla,Black,Homeownership,N,2016
+Montavilla,Latino,Studio,N,2016
+Montavilla,Latino,1-BR,Y,2016
+Montavilla,Latino,2-BR,N,2016
+Montavilla,Latino,3-BR,N,2016
+Montavilla,Latino,Homeownership,N,2016
+Montavilla,Native American,Studio,N,2016
+Montavilla,Native American,1-BR,N,2016
+Montavilla,Native American,2-BR,N,2016
+Montavilla,Native American,3-BR,N,2016
+Montavilla,Native American,Homeownership,N,2016
+Montavilla,Asian,Studio,Y,2016
+Montavilla,Asian,1-BR,Y,2016
+Montavilla,Asian,2-BR,Y,2016
+Montavilla,Asian,3-BR,N,2016
+Montavilla,Asian,Homeownership,N,2016
+Montavilla,Senior,Studio,Y,2016
+Montavilla,Senior,1-BR,Y,2016
+Montavilla,Senior,2-BR,N,2016
+Montavilla,Senior,3-BR,N,2016
+Montavilla,Senior,Homeownership,N,2016
+Montavilla,Single Mother,Studio,N,2016
+Montavilla,Single Mother,1-BR,N,2016
+Montavilla,Single Mother,2-BR,N,2016
+Montavilla,Single Mother,3-BR,N,2016
+Montavilla,Single Mother,Homeownership,N,2016
+Montavilla,Foreign-Born,Studio,Y,2016
+Montavilla,Foreign-Born,1-BR,Y,2016
+Montavilla,Foreign-Born,2-BR,N,2016
+Montavilla,Foreign-Born,3-BR,N,2016
+Montavilla,Foreign-Born,Homeownership,N,2016
+Northwest,Avg. Portland Household,Studio,Y,2016
+Northwest,Avg. Portland Household,1-BR,N,2016
+Northwest,Avg. Portland Household,2-BR,N,2016
+Northwest,Avg. Portland Household,3-BR,N,2016
+Northwest,Avg. Portland Household,Homeownership,N,2016
+Northwest,3-Person Extremely Low-Income,Studio,N,2016
+Northwest,3-Person Extremely Low-Income,1-BR,N,2016
+Northwest,3-Person Extremely Low-Income,2-BR,N,2016
+Northwest,3-Person Extremely Low-Income,3-BR,N,2016
+Northwest,3-Person Extremely Low-Income,Homeownership,N,2016
+Northwest,3-Person Low-Income,Studio,N,2016
+Northwest,3-Person Low-Income,1-BR,N,2016
+Northwest,3-Person Low-Income,2-BR,N,2016
+Northwest,3-Person Low-Income,3-BR,N,2016
+Northwest,3-Person Low-Income,Homeownership,N,2016
+Northwest,3-Person Moderate-Income,Studio,Y,2016
+Northwest,3-Person Moderate-Income,1-BR,N,2016
+Northwest,3-Person Moderate-Income,2-BR,N,2016
+Northwest,3-Person Moderate-Income,3-BR,N,2016
+Northwest,3-Person Moderate-Income,Homeownership,N,2016
+Northwest,Couple with Family,Studio,Y,2016
+Northwest,Couple with Family,1-BR,Y,2016
+Northwest,Couple with Family,2-BR,N,2016
+Northwest,Couple with Family,3-BR,N,2016
+Northwest,Couple with Family,Homeownership,Y,2016
+Northwest,White,Studio,Y,2016
+Northwest,White,1-BR,N,2016
+Northwest,White,2-BR,N,2016
+Northwest,White,3-BR,N,2016
+Northwest,White,Homeownership,N,2016
+Northwest,Black,Studio,N,2016
+Northwest,Black,1-BR,N,2016
+Northwest,Black,2-BR,N,2016
+Northwest,Black,3-BR,N,2016
+Northwest,Black,Homeownership,N,2016
+Northwest,Latino,Studio,N,2016
+Northwest,Latino,1-BR,N,2016
+Northwest,Latino,2-BR,N,2016
+Northwest,Latino,3-BR,N,2016
+Northwest,Latino,Homeownership,N,2016
+Northwest,Native American,Studio,N,2016
+Northwest,Native American,1-BR,N,2016
+Northwest,Native American,2-BR,N,2016
+Northwest,Native American,3-BR,N,2016
+Northwest,Native American,Homeownership,N,2016
+Northwest,Asian,Studio,Y,2016
+Northwest,Asian,1-BR,N,2016
+Northwest,Asian,2-BR,N,2016
+Northwest,Asian,3-BR,N,2016
+Northwest,Asian,Homeownership,N,2016
+Northwest,Senior,Studio,N,2016
+Northwest,Senior,1-BR,N,2016
+Northwest,Senior,2-BR,N,2016
+Northwest,Senior,3-BR,N,2016
+Northwest,Senior,Homeownership,N,2016
+Northwest,Single Mother,Studio,N,2016
+Northwest,Single Mother,1-BR,N,2016
+Northwest,Single Mother,2-BR,N,2016
+Northwest,Single Mother,3-BR,N,2016
+Northwest,Single Mother,Homeownership,N,2016
+Northwest,Foreign-Born,Studio,N,2016
+Northwest,Foreign-Born,1-BR,N,2016
+Northwest,Foreign-Born,2-BR,N,2016
+Northwest,Foreign-Born,3-BR,N,2016
+Northwest,Foreign-Born,Homeownership,N,2016
+Parkrose-Argay,Avg. Portland Household,Studio,Y,2016
+Parkrose-Argay,Avg. Portland Household,1-BR,Y,2016
+Parkrose-Argay,Avg. Portland Household,2-BR,Y,2016
+Parkrose-Argay,Avg. Portland Household,3-BR,Y,2016
+Parkrose-Argay,Avg. Portland Household,Homeownership,Y,2016
+Parkrose-Argay,3-Person Extremely Low-Income,Studio,Y,2016
+Parkrose-Argay,3-Person Extremely Low-Income,1-BR,N,2016
+Parkrose-Argay,3-Person Extremely Low-Income,2-BR,N,2016
+Parkrose-Argay,3-Person Extremely Low-Income,3-BR,N,2016
+Parkrose-Argay,3-Person Extremely Low-Income,Homeownership,N,2016
+Parkrose-Argay,3-Person Low-Income,Studio,Y,2016
+Parkrose-Argay,3-Person Low-Income,1-BR,Y,2016
+Parkrose-Argay,3-Person Low-Income,2-BR,N,2016
+Parkrose-Argay,3-Person Low-Income,3-BR,N,2016
+Parkrose-Argay,3-Person Low-Income,Homeownership,N,2016
+Parkrose-Argay,3-Person Moderate-Income,Studio,Y,2016
+Parkrose-Argay,3-Person Moderate-Income,1-BR,Y,2016
+Parkrose-Argay,3-Person Moderate-Income,2-BR,Y,2016
+Parkrose-Argay,3-Person Moderate-Income,3-BR,Y,2016
+Parkrose-Argay,3-Person Moderate-Income,Homeownership,Y,2016
+Parkrose-Argay,Couple with Family,Studio,Y,2016
+Parkrose-Argay,Couple with Family,1-BR,Y,2016
+Parkrose-Argay,Couple with Family,2-BR,Y,2016
+Parkrose-Argay,Couple with Family,3-BR,Y,2016
+Parkrose-Argay,Couple with Family,Homeownership,Y,2016
+Parkrose-Argay,White,Studio,Y,2016
+Parkrose-Argay,White,1-BR,Y,2016
+Parkrose-Argay,White,2-BR,Y,2016
+Parkrose-Argay,White,3-BR,Y,2016
+Parkrose-Argay,White,Homeownership,Y,2016
+Parkrose-Argay,Black,Studio,Y,2016
+Parkrose-Argay,Black,1-BR,N,2016
+Parkrose-Argay,Black,2-BR,N,2016
+Parkrose-Argay,Black,3-BR,N,2016
+Parkrose-Argay,Black,Homeownership,N,2016
+Parkrose-Argay,Latino,Studio,Y,2016
+Parkrose-Argay,Latino,1-BR,Y,2016
+Parkrose-Argay,Latino,2-BR,N,2016
+Parkrose-Argay,Latino,3-BR,N,2016
+Parkrose-Argay,Latino,Homeownership,N,2016
+Parkrose-Argay,Native American,Studio,Y,2016
+Parkrose-Argay,Native American,1-BR,N,2016
+Parkrose-Argay,Native American,2-BR,N,2016
+Parkrose-Argay,Native American,3-BR,N,2016
+Parkrose-Argay,Native American,Homeownership,N,2016
+Parkrose-Argay,Asian,Studio,Y,2016
+Parkrose-Argay,Asian,1-BR,Y,2016
+Parkrose-Argay,Asian,2-BR,Y,2016
+Parkrose-Argay,Asian,3-BR,Y,2016
+Parkrose-Argay,Asian,Homeownership,Y,2016
+Parkrose-Argay,Senior,Studio,Y,2016
+Parkrose-Argay,Senior,1-BR,Y,2016
+Parkrose-Argay,Senior,2-BR,N,2016
+Parkrose-Argay,Senior,3-BR,N,2016
+Parkrose-Argay,Senior,Homeownership,N,2016
+Parkrose-Argay,Single Mother,Studio,Y,2016
+Parkrose-Argay,Single Mother,1-BR,N,2016
+Parkrose-Argay,Single Mother,2-BR,N,2016
+Parkrose-Argay,Single Mother,3-BR,N,2016
+Parkrose-Argay,Single Mother,Homeownership,N,2016
+Parkrose-Argay,Foreign-Born,Studio,Y,2016
+Parkrose-Argay,Foreign-Born,1-BR,Y,2016
+Parkrose-Argay,Foreign-Born,2-BR,N,2016
+Parkrose-Argay,Foreign-Born,3-BR,N,2016
+Parkrose-Argay,Foreign-Born,Homeownership,N,2016
+Pleasant Valley,Avg. Portland Household,Studio,0,2016
+Pleasant Valley,Avg. Portland Household,1-BR,Y,2016
+Pleasant Valley,Avg. Portland Household,2-BR,Y,2016
+Pleasant Valley,Avg. Portland Household,3-BR,Y,2016
+Pleasant Valley,Avg. Portland Household,Homeownership,Y,2016
+Pleasant Valley,3-Person Extremely Low-Income,Studio,0,2016
+Pleasant Valley,3-Person Extremely Low-Income,1-BR,N,2016
+Pleasant Valley,3-Person Extremely Low-Income,2-BR,N,2016
+Pleasant Valley,3-Person Extremely Low-Income,3-BR,N,2016
+Pleasant Valley,3-Person Extremely Low-Income,Homeownership,N,2016
+Pleasant Valley,3-Person Low-Income,Studio,0,2016
+Pleasant Valley,3-Person Low-Income,1-BR,Y,2016
+Pleasant Valley,3-Person Low-Income,2-BR,Y,2016
+Pleasant Valley,3-Person Low-Income,3-BR,N,2016
+Pleasant Valley,3-Person Low-Income,Homeownership,N,2016
+Pleasant Valley,3-Person Moderate-Income,Studio,0,2016
+Pleasant Valley,3-Person Moderate-Income,1-BR,Y,2016
+Pleasant Valley,3-Person Moderate-Income,2-BR,Y,2016
+Pleasant Valley,3-Person Moderate-Income,3-BR,Y,2016
+Pleasant Valley,3-Person Moderate-Income,Homeownership,Y,2016
+Pleasant Valley,Couple with Family,Studio,0,2016
+Pleasant Valley,Couple with Family,1-BR,Y,2016
+Pleasant Valley,Couple with Family,2-BR,Y,2016
+Pleasant Valley,Couple with Family,3-BR,Y,2016
+Pleasant Valley,Couple with Family,Homeownership,Y,2016
+Pleasant Valley,White,Studio,0,2016
+Pleasant Valley,White,1-BR,Y,2016
+Pleasant Valley,White,2-BR,Y,2016
+Pleasant Valley,White,3-BR,Y,2016
+Pleasant Valley,White,Homeownership,Y,2016
+Pleasant Valley,Black,Studio,0,2016
+Pleasant Valley,Black,1-BR,N,2016
+Pleasant Valley,Black,2-BR,N,2016
+Pleasant Valley,Black,3-BR,N,2016
+Pleasant Valley,Black,Homeownership,N,2016
+Pleasant Valley,Latino,Studio,0,2016
+Pleasant Valley,Latino,1-BR,Y,2016
+Pleasant Valley,Latino,2-BR,N,2016
+Pleasant Valley,Latino,3-BR,N,2016
+Pleasant Valley,Latino,Homeownership,N,2016
+Pleasant Valley,Native American,Studio,0,2016
+Pleasant Valley,Native American,1-BR,N,2016
+Pleasant Valley,Native American,2-BR,N,2016
+Pleasant Valley,Native American,3-BR,N,2016
+Pleasant Valley,Native American,Homeownership,N,2016
+Pleasant Valley,Asian,Studio,0,2016
+Pleasant Valley,Asian,1-BR,Y,2016
+Pleasant Valley,Asian,2-BR,Y,2016
+Pleasant Valley,Asian,3-BR,Y,2016
+Pleasant Valley,Asian,Homeownership,Y,2016
+Pleasant Valley,Senior,Studio,0,2016
+Pleasant Valley,Senior,1-BR,Y,2016
+Pleasant Valley,Senior,2-BR,N,2016
+Pleasant Valley,Senior,3-BR,N,2016
+Pleasant Valley,Senior,Homeownership,N,2016
+Pleasant Valley,Single Mother,Studio,0,2016
+Pleasant Valley,Single Mother,1-BR,N,2016
+Pleasant Valley,Single Mother,2-BR,N,2016
+Pleasant Valley,Single Mother,3-BR,N,2016
+Pleasant Valley,Single Mother,Homeownership,N,2016
+Pleasant Valley,Foreign-Born,Studio,0,2016
+Pleasant Valley,Foreign-Born,1-BR,Y,2016
+Pleasant Valley,Foreign-Born,2-BR,Y,2016
+Pleasant Valley,Foreign-Born,3-BR,N,2016
+Pleasant Valley,Foreign-Born,Homeownership,N,2016
+Raleigh Hills,Avg. Portland Household,Studio,Y,2016
+Raleigh Hills,Avg. Portland Household,1-BR,Y,2016
+Raleigh Hills,Avg. Portland Household,2-BR,Y,2016
+Raleigh Hills,Avg. Portland Household,3-BR,N,2016
+Raleigh Hills,Avg. Portland Household,Homeownership,N,2016
+Raleigh Hills,3-Person Extremely Low-Income,Studio,N,2016
+Raleigh Hills,3-Person Extremely Low-Income,1-BR,N,2016
+Raleigh Hills,3-Person Extremely Low-Income,2-BR,N,2016
+Raleigh Hills,3-Person Extremely Low-Income,3-BR,N,2016
+Raleigh Hills,3-Person Extremely Low-Income,Homeownership,N,2016
+Raleigh Hills,3-Person Low-Income,Studio,Y,2016
+Raleigh Hills,3-Person Low-Income,1-BR,N,2016
+Raleigh Hills,3-Person Low-Income,2-BR,N,2016
+Raleigh Hills,3-Person Low-Income,3-BR,N,2016
+Raleigh Hills,3-Person Low-Income,Homeownership,N,2016
+Raleigh Hills,3-Person Moderate-Income,Studio,Y,2016
+Raleigh Hills,3-Person Moderate-Income,1-BR,Y,2016
+Raleigh Hills,3-Person Moderate-Income,2-BR,Y,2016
+Raleigh Hills,3-Person Moderate-Income,3-BR,N,2016
+Raleigh Hills,3-Person Moderate-Income,Homeownership,N,2016
+Raleigh Hills,Couple with Family,Studio,Y,2016
+Raleigh Hills,Couple with Family,1-BR,Y,2016
+Raleigh Hills,Couple with Family,2-BR,Y,2016
+Raleigh Hills,Couple with Family,3-BR,Y,2016
+Raleigh Hills,Couple with Family,Homeownership,N,2016
+Raleigh Hills,White,Studio,Y,2016
+Raleigh Hills,White,1-BR,Y,2016
+Raleigh Hills,White,2-BR,Y,2016
+Raleigh Hills,White,3-BR,Y,2016
+Raleigh Hills,White,Homeownership,N,2016
+Raleigh Hills,Black,Studio,N,2016
+Raleigh Hills,Black,1-BR,N,2016
+Raleigh Hills,Black,2-BR,N,2016
+Raleigh Hills,Black,3-BR,N,2016
+Raleigh Hills,Black,Homeownership,N,2016
+Raleigh Hills,Latino,Studio,N,2016
+Raleigh Hills,Latino,1-BR,N,2016
+Raleigh Hills,Latino,2-BR,N,2016
+Raleigh Hills,Latino,3-BR,N,2016
+Raleigh Hills,Latino,Homeownership,N,2016
+Raleigh Hills,Native American,Studio,N,2016
+Raleigh Hills,Native American,1-BR,N,2016
+Raleigh Hills,Native American,2-BR,N,2016
+Raleigh Hills,Native American,3-BR,N,2016
+Raleigh Hills,Native American,Homeownership,N,2016
+Raleigh Hills,Asian,Studio,Y,2016
+Raleigh Hills,Asian,1-BR,Y,2016
+Raleigh Hills,Asian,2-BR,Y,2016
+Raleigh Hills,Asian,3-BR,N,2016
+Raleigh Hills,Asian,Homeownership,N,2016
+Raleigh Hills,Senior,Studio,N,2016
+Raleigh Hills,Senior,1-BR,N,2016
+Raleigh Hills,Senior,2-BR,N,2016
+Raleigh Hills,Senior,3-BR,N,2016
+Raleigh Hills,Senior,Homeownership,N,2016
+Raleigh Hills,Single Mother,Studio,N,2016
+Raleigh Hills,Single Mother,1-BR,N,2016
+Raleigh Hills,Single Mother,2-BR,N,2016
+Raleigh Hills,Single Mother,3-BR,N,2016
+Raleigh Hills,Single Mother,Homeownership,N,2016
+Raleigh Hills,Foreign-Born,Studio,Y,2016
+Raleigh Hills,Foreign-Born,1-BR,Y,2016
+Raleigh Hills,Foreign-Born,2-BR,N,2016
+Raleigh Hills,Foreign-Born,3-BR,N,2016
+Raleigh Hills,Foreign-Born,Homeownership,N,2016
+Roseway-Cully,Avg. Portland Household,Studio,Y,2016
+Roseway-Cully,Avg. Portland Household,1-BR,Y,2016
+Roseway-Cully,Avg. Portland Household,2-BR,Y,2016
+Roseway-Cully,Avg. Portland Household,3-BR,Y,2016
+Roseway-Cully,Avg. Portland Household,Homeownership,N,2016
+Roseway-Cully,3-Person Extremely Low-Income,Studio,N,2016
+Roseway-Cully,3-Person Extremely Low-Income,1-BR,N,2016
+Roseway-Cully,3-Person Extremely Low-Income,2-BR,N,2016
+Roseway-Cully,3-Person Extremely Low-Income,3-BR,N,2016
+Roseway-Cully,3-Person Extremely Low-Income,Homeownership,N,2016
+Roseway-Cully,3-Person Low-Income,Studio,Y,2016
+Roseway-Cully,3-Person Low-Income,1-BR,Y,2016
+Roseway-Cully,3-Person Low-Income,2-BR,N,2016
+Roseway-Cully,3-Person Low-Income,3-BR,N,2016
+Roseway-Cully,3-Person Low-Income,Homeownership,N,2016
+Roseway-Cully,3-Person Moderate-Income,Studio,Y,2016
+Roseway-Cully,3-Person Moderate-Income,1-BR,Y,2016
+Roseway-Cully,3-Person Moderate-Income,2-BR,Y,2016
+Roseway-Cully,3-Person Moderate-Income,3-BR,Y,2016
+Roseway-Cully,3-Person Moderate-Income,Homeownership,N,2016
+Roseway-Cully,Couple with Family,Studio,Y,2016
+Roseway-Cully,Couple with Family,1-BR,Y,2016
+Roseway-Cully,Couple with Family,2-BR,Y,2016
+Roseway-Cully,Couple with Family,3-BR,Y,2016
+Roseway-Cully,Couple with Family,Homeownership,Y,2016
+Roseway-Cully,White,Studio,Y,2016
+Roseway-Cully,White,1-BR,Y,2016
+Roseway-Cully,White,2-BR,Y,2016
+Roseway-Cully,White,3-BR,Y,2016
+Roseway-Cully,White,Homeownership,N,2016
+Roseway-Cully,Black,Studio,Y,2016
+Roseway-Cully,Black,1-BR,N,2016
+Roseway-Cully,Black,2-BR,N,2016
+Roseway-Cully,Black,3-BR,N,2016
+Roseway-Cully,Black,Homeownership,N,2016
+Roseway-Cully,Latino,Studio,Y,2016
+Roseway-Cully,Latino,1-BR,Y,2016
+Roseway-Cully,Latino,2-BR,N,2016
+Roseway-Cully,Latino,3-BR,N,2016
+Roseway-Cully,Latino,Homeownership,N,2016
+Roseway-Cully,Native American,Studio,N,2016
+Roseway-Cully,Native American,1-BR,N,2016
+Roseway-Cully,Native American,2-BR,N,2016
+Roseway-Cully,Native American,3-BR,N,2016
+Roseway-Cully,Native American,Homeownership,N,2016
+Roseway-Cully,Asian,Studio,Y,2016
+Roseway-Cully,Asian,1-BR,Y,2016
+Roseway-Cully,Asian,2-BR,Y,2016
+Roseway-Cully,Asian,3-BR,Y,2016
+Roseway-Cully,Asian,Homeownership,N,2016
+Roseway-Cully,Senior,Studio,Y,2016
+Roseway-Cully,Senior,1-BR,Y,2016
+Roseway-Cully,Senior,2-BR,N,2016
+Roseway-Cully,Senior,3-BR,N,2016
+Roseway-Cully,Senior,Homeownership,N,2016
+Roseway-Cully,Single Mother,Studio,Y,2016
+Roseway-Cully,Single Mother,1-BR,N,2016
+Roseway-Cully,Single Mother,2-BR,N,2016
+Roseway-Cully,Single Mother,3-BR,N,2016
+Roseway-Cully,Single Mother,Homeownership,N,2016
+Roseway-Cully,Foreign-Born,Studio,Y,2016
+Roseway-Cully,Foreign-Born,1-BR,Y,2016
+Roseway-Cully,Foreign-Born,2-BR,N,2016
+Roseway-Cully,Foreign-Born,3-BR,N,2016
+Roseway-Cully,Foreign-Born,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Avg. Portland Household,Studio,Y,2016
+Sellwood-Moreland-Brooklyn,Avg. Portland Household,1-BR,Y,2016
+Sellwood-Moreland-Brooklyn,Avg. Portland Household,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Avg. Portland Household,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Avg. Portland Household,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Extremely Low-Income,Studio,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Extremely Low-Income,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Extremely Low-Income,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Extremely Low-Income,3-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Extremely Low-Income,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Low-Income,Studio,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Low-Income,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Low-Income,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Low-Income,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,3-Person Low-Income,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Moderate-Income,Studio,Y,2016
+Sellwood-Moreland-Brooklyn,3-Person Moderate-Income,1-BR,Y,2016
+Sellwood-Moreland-Brooklyn,3-Person Moderate-Income,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,3-Person Moderate-Income,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,3-Person Moderate-Income,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Couple with Family,Studio,Y,2016
+Sellwood-Moreland-Brooklyn,Couple with Family,1-BR,Y,2016
+Sellwood-Moreland-Brooklyn,Couple with Family,2-BR,Y,2016
+Sellwood-Moreland-Brooklyn,Couple with Family,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Couple with Family,Homeownership,Y,2016
+Sellwood-Moreland-Brooklyn,White,Studio,Y,2016
+Sellwood-Moreland-Brooklyn,White,1-BR,Y,2016
+Sellwood-Moreland-Brooklyn,White,2-BR,Y,2016
+Sellwood-Moreland-Brooklyn,White,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,White,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Black,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Black,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Black,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Black,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Black,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Latino,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Latino,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Latino,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Latino,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Latino,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Native American,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Native American,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Native American,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Native American,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Native American,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Asian,Studio,Y,2016
+Sellwood-Moreland-Brooklyn,Asian,1-BR,Y,2016
+Sellwood-Moreland-Brooklyn,Asian,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Asian,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Asian,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Senior,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Senior,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Senior,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Senior,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Senior,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Single Mother,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Single Mother,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Single Mother,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Single Mother,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Single Mother,Homeownership,N,2016
+Sellwood-Moreland-Brooklyn,Foreign-Born,Studio,N,2016
+Sellwood-Moreland-Brooklyn,Foreign-Born,1-BR,N,2016
+Sellwood-Moreland-Brooklyn,Foreign-Born,2-BR,N,2016
+Sellwood-Moreland-Brooklyn,Foreign-Born,3-BR,0,2016
+Sellwood-Moreland-Brooklyn,Foreign-Born,Homeownership,N,2016
+South Portland-Marquam Hill,Avg. Portland Household,Studio,N,2016
+South Portland-Marquam Hill,Avg. Portland Household,1-BR,N,2016
+South Portland-Marquam Hill,Avg. Portland Household,2-BR,N,2016
+South Portland-Marquam Hill,Avg. Portland Household,3-BR,N,2016
+South Portland-Marquam Hill,Avg. Portland Household,Homeownership,N,2016
+South Portland-Marquam Hill,3-Person Extremely Low-Income,Studio,N,2016
+South Portland-Marquam Hill,3-Person Extremely Low-Income,1-BR,N,2016
+South Portland-Marquam Hill,3-Person Extremely Low-Income,2-BR,N,2016
+South Portland-Marquam Hill,3-Person Extremely Low-Income,3-BR,N,2016
+South Portland-Marquam Hill,3-Person Extremely Low-Income,Homeownership,N,2016
+South Portland-Marquam Hill,3-Person Low-Income,Studio,N,2016
+South Portland-Marquam Hill,3-Person Low-Income,1-BR,N,2016
+South Portland-Marquam Hill,3-Person Low-Income,2-BR,N,2016
+South Portland-Marquam Hill,3-Person Low-Income,3-BR,N,2016
+South Portland-Marquam Hill,3-Person Low-Income,Homeownership,N,2016
+South Portland-Marquam Hill,3-Person Moderate-Income,Studio,N,2016
+South Portland-Marquam Hill,3-Person Moderate-Income,1-BR,N,2016
+South Portland-Marquam Hill,3-Person Moderate-Income,2-BR,N,2016
+South Portland-Marquam Hill,3-Person Moderate-Income,3-BR,N,2016
+South Portland-Marquam Hill,3-Person Moderate-Income,Homeownership,N,2016
+South Portland-Marquam Hill,Couple with Family,Studio,Y,2016
+South Portland-Marquam Hill,Couple with Family,1-BR,Y,2016
+South Portland-Marquam Hill,Couple with Family,2-BR,N,2016
+South Portland-Marquam Hill,Couple with Family,3-BR,Y,2016
+South Portland-Marquam Hill,Couple with Family,Homeownership,Y,2016
+South Portland-Marquam Hill,White,Studio,Y,2016
+South Portland-Marquam Hill,White,1-BR,Y,2016
+South Portland-Marquam Hill,White,2-BR,N,2016
+South Portland-Marquam Hill,White,3-BR,N,2016
+South Portland-Marquam Hill,White,Homeownership,N,2016
+South Portland-Marquam Hill,Black,Studio,N,2016
+South Portland-Marquam Hill,Black,1-BR,N,2016
+South Portland-Marquam Hill,Black,2-BR,N,2016
+South Portland-Marquam Hill,Black,3-BR,N,2016
+South Portland-Marquam Hill,Black,Homeownership,N,2016
+South Portland-Marquam Hill,Latino,Studio,N,2016
+South Portland-Marquam Hill,Latino,1-BR,N,2016
+South Portland-Marquam Hill,Latino,2-BR,N,2016
+South Portland-Marquam Hill,Latino,3-BR,N,2016
+South Portland-Marquam Hill,Latino,Homeownership,N,2016
+South Portland-Marquam Hill,Native American,Studio,N,2016
+South Portland-Marquam Hill,Native American,1-BR,N,2016
+South Portland-Marquam Hill,Native American,2-BR,N,2016
+South Portland-Marquam Hill,Native American,3-BR,N,2016
+South Portland-Marquam Hill,Native American,Homeownership,N,2016
+South Portland-Marquam Hill,Asian,Studio,Y,2016
+South Portland-Marquam Hill,Asian,1-BR,N,2016
+South Portland-Marquam Hill,Asian,2-BR,N,2016
+South Portland-Marquam Hill,Asian,3-BR,N,2016
+South Portland-Marquam Hill,Asian,Homeownership,N,2016
+South Portland-Marquam Hill,Senior,Studio,N,2016
+South Portland-Marquam Hill,Senior,1-BR,N,2016
+South Portland-Marquam Hill,Senior,2-BR,N,2016
+South Portland-Marquam Hill,Senior,3-BR,N,2016
+South Portland-Marquam Hill,Senior,Homeownership,N,2016
+South Portland-Marquam Hill,Single Mother,Studio,N,2016
+South Portland-Marquam Hill,Single Mother,1-BR,N,2016
+South Portland-Marquam Hill,Single Mother,2-BR,N,2016
+South Portland-Marquam Hill,Single Mother,3-BR,N,2016
+South Portland-Marquam Hill,Single Mother,Homeownership,N,2016
+South Portland-Marquam Hill,Foreign-Born,Studio,N,2016
+South Portland-Marquam Hill,Foreign-Born,1-BR,N,2016
+South Portland-Marquam Hill,Foreign-Born,2-BR,N,2016
+South Portland-Marquam Hill,Foreign-Born,3-BR,N,2016
+South Portland-Marquam Hill,Foreign-Born,Homeownership,N,2016
+St. Johns,Avg. Portland Household,Studio,Y,2016
+St. Johns,Avg. Portland Household,1-BR,Y,2016
+St. Johns,Avg. Portland Household,2-BR,Y,2016
+St. Johns,Avg. Portland Household,3-BR,Y,2016
+St. Johns,Avg. Portland Household,Homeownership,Y,2016
+St. Johns,3-Person Extremely Low-Income,Studio,N,2016
+St. Johns,3-Person Extremely Low-Income,1-BR,N,2016
+St. Johns,3-Person Extremely Low-Income,2-BR,N,2016
+St. Johns,3-Person Extremely Low-Income,3-BR,N,2016
+St. Johns,3-Person Extremely Low-Income,Homeownership,N,2016
+St. Johns,3-Person Low-Income,Studio,N,2016
+St. Johns,3-Person Low-Income,1-BR,Y,2016
+St. Johns,3-Person Low-Income,2-BR,Y,2016
+St. Johns,3-Person Low-Income,3-BR,N,2016
+St. Johns,3-Person Low-Income,Homeownership,N,2016
+St. Johns,3-Person Moderate-Income,Studio,Y,2016
+St. Johns,3-Person Moderate-Income,1-BR,Y,2016
+St. Johns,3-Person Moderate-Income,2-BR,Y,2016
+St. Johns,3-Person Moderate-Income,3-BR,Y,2016
+St. Johns,3-Person Moderate-Income,Homeownership,Y,2016
+St. Johns,Couple with Family,Studio,Y,2016
+St. Johns,Couple with Family,1-BR,Y,2016
+St. Johns,Couple with Family,2-BR,Y,2016
+St. Johns,Couple with Family,3-BR,Y,2016
+St. Johns,Couple with Family,Homeownership,Y,2016
+St. Johns,White,Studio,Y,2016
+St. Johns,White,1-BR,Y,2016
+St. Johns,White,2-BR,Y,2016
+St. Johns,White,3-BR,Y,2016
+St. Johns,White,Homeownership,Y,2016
+St. Johns,Black,Studio,N,2016
+St. Johns,Black,1-BR,N,2016
+St. Johns,Black,2-BR,N,2016
+St. Johns,Black,3-BR,N,2016
+St. Johns,Black,Homeownership,N,2016
+St. Johns,Latino,Studio,N,2016
+St. Johns,Latino,1-BR,Y,2016
+St. Johns,Latino,2-BR,N,2016
+St. Johns,Latino,3-BR,N,2016
+St. Johns,Latino,Homeownership,N,2016
+St. Johns,Native American,Studio,N,2016
+St. Johns,Native American,1-BR,N,2016
+St. Johns,Native American,2-BR,N,2016
+St. Johns,Native American,3-BR,N,2016
+St. Johns,Native American,Homeownership,N,2016
+St. Johns,Asian,Studio,Y,2016
+St. Johns,Asian,1-BR,Y,2016
+St. Johns,Asian,2-BR,Y,2016
+St. Johns,Asian,3-BR,Y,2016
+St. Johns,Asian,Homeownership,Y,2016
+St. Johns,Senior,Studio,N,2016
+St. Johns,Senior,1-BR,Y,2016
+St. Johns,Senior,2-BR,N,2016
+St. Johns,Senior,3-BR,N,2016
+St. Johns,Senior,Homeownership,N,2016
+St. Johns,Single Mother,Studio,N,2016
+St. Johns,Single Mother,1-BR,N,2016
+St. Johns,Single Mother,2-BR,N,2016
+St. Johns,Single Mother,3-BR,N,2016
+St. Johns,Single Mother,Homeownership,N,2016
+St. Johns,Foreign-Born,Studio,N,2016
+St. Johns,Foreign-Born,1-BR,Y,2016
+St. Johns,Foreign-Born,2-BR,Y,2016
+St. Johns,Foreign-Born,3-BR,N,2016
+St. Johns,Foreign-Born,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Avg. Portland Household,Studio,Y,2016
+Tryon Creek-South Terwilliger,Avg. Portland Household,1-BR,Y,2016
+Tryon Creek-South Terwilliger,Avg. Portland Household,2-BR,Y,2016
+Tryon Creek-South Terwilliger,Avg. Portland Household,3-BR,0,2016
+Tryon Creek-South Terwilliger,Avg. Portland Household,Homeownership,N,2016
+Tryon Creek-South Terwilliger,3-Person Extremely Low-Income,Studio,N,2016
+Tryon Creek-South Terwilliger,3-Person Extremely Low-Income,1-BR,N,2016
+Tryon Creek-South Terwilliger,3-Person Extremely Low-Income,2-BR,N,2016
+Tryon Creek-South Terwilliger,3-Person Extremely Low-Income,3-BR,0,2016
+Tryon Creek-South Terwilliger,3-Person Extremely Low-Income,Homeownership,N,2016
+Tryon Creek-South Terwilliger,3-Person Low-Income,Studio,Y,2016
+Tryon Creek-South Terwilliger,3-Person Low-Income,1-BR,N,2016
+Tryon Creek-South Terwilliger,3-Person Low-Income,2-BR,N,2016
+Tryon Creek-South Terwilliger,3-Person Low-Income,3-BR,0,2016
+Tryon Creek-South Terwilliger,3-Person Low-Income,Homeownership,N,2016
+Tryon Creek-South Terwilliger,3-Person Moderate-Income,Studio,Y,2016
+Tryon Creek-South Terwilliger,3-Person Moderate-Income,1-BR,Y,2016
+Tryon Creek-South Terwilliger,3-Person Moderate-Income,2-BR,Y,2016
+Tryon Creek-South Terwilliger,3-Person Moderate-Income,3-BR,0,2016
+Tryon Creek-South Terwilliger,3-Person Moderate-Income,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Couple with Family,Studio,Y,2016
+Tryon Creek-South Terwilliger,Couple with Family,1-BR,Y,2016
+Tryon Creek-South Terwilliger,Couple with Family,2-BR,Y,2016
+Tryon Creek-South Terwilliger,Couple with Family,3-BR,0,2016
+Tryon Creek-South Terwilliger,Couple with Family,Homeownership,N,2016
+Tryon Creek-South Terwilliger,White,Studio,Y,2016
+Tryon Creek-South Terwilliger,White,1-BR,Y,2016
+Tryon Creek-South Terwilliger,White,2-BR,Y,2016
+Tryon Creek-South Terwilliger,White,3-BR,0,2016
+Tryon Creek-South Terwilliger,White,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Black,Studio,N,2016
+Tryon Creek-South Terwilliger,Black,1-BR,N,2016
+Tryon Creek-South Terwilliger,Black,2-BR,N,2016
+Tryon Creek-South Terwilliger,Black,3-BR,0,2016
+Tryon Creek-South Terwilliger,Black,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Latino,Studio,Y,2016
+Tryon Creek-South Terwilliger,Latino,1-BR,N,2016
+Tryon Creek-South Terwilliger,Latino,2-BR,N,2016
+Tryon Creek-South Terwilliger,Latino,3-BR,0,2016
+Tryon Creek-South Terwilliger,Latino,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Native American,Studio,N,2016
+Tryon Creek-South Terwilliger,Native American,1-BR,N,2016
+Tryon Creek-South Terwilliger,Native American,2-BR,N,2016
+Tryon Creek-South Terwilliger,Native American,3-BR,0,2016
+Tryon Creek-South Terwilliger,Native American,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Asian,Studio,Y,2016
+Tryon Creek-South Terwilliger,Asian,1-BR,Y,2016
+Tryon Creek-South Terwilliger,Asian,2-BR,Y,2016
+Tryon Creek-South Terwilliger,Asian,3-BR,0,2016
+Tryon Creek-South Terwilliger,Asian,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Senior,Studio,Y,2016
+Tryon Creek-South Terwilliger,Senior,1-BR,N,2016
+Tryon Creek-South Terwilliger,Senior,2-BR,N,2016
+Tryon Creek-South Terwilliger,Senior,3-BR,0,2016
+Tryon Creek-South Terwilliger,Senior,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Single Mother,Studio,N,2016
+Tryon Creek-South Terwilliger,Single Mother,1-BR,N,2016
+Tryon Creek-South Terwilliger,Single Mother,2-BR,N,2016
+Tryon Creek-South Terwilliger,Single Mother,3-BR,0,2016
+Tryon Creek-South Terwilliger,Single Mother,Homeownership,N,2016
+Tryon Creek-South Terwilliger,Foreign-Born,Studio,Y,2016
+Tryon Creek-South Terwilliger,Foreign-Born,1-BR,N,2016
+Tryon Creek-South Terwilliger,Foreign-Born,2-BR,N,2016
+Tryon Creek-South Terwilliger,Foreign-Born,3-BR,0,2016
+Tryon Creek-South Terwilliger,Foreign-Born,Homeownership,N,2016
+West Portland,Avg. Portland Household,Studio,Y,2016
+West Portland,Avg. Portland Household,1-BR,Y,2016
+West Portland,Avg. Portland Household,2-BR,N,2016
+West Portland,Avg. Portland Household,3-BR,N,2016
+West Portland,Avg. Portland Household,Homeownership,N,2016
+West Portland,3-Person Extremely Low-Income,Studio,N,2016
+West Portland,3-Person Extremely Low-Income,1-BR,N,2016
+West Portland,3-Person Extremely Low-Income,2-BR,N,2016
+West Portland,3-Person Extremely Low-Income,3-BR,N,2016
+West Portland,3-Person Extremely Low-Income,Homeownership,N,2016
+West Portland,3-Person Low-Income,Studio,Y,2016
+West Portland,3-Person Low-Income,1-BR,N,2016
+West Portland,3-Person Low-Income,2-BR,N,2016
+West Portland,3-Person Low-Income,3-BR,N,2016
+West Portland,3-Person Low-Income,Homeownership,N,2016
+West Portland,3-Person Moderate-Income,Studio,Y,2016
+West Portland,3-Person Moderate-Income,1-BR,Y,2016
+West Portland,3-Person Moderate-Income,2-BR,N,2016
+West Portland,3-Person Moderate-Income,3-BR,N,2016
+West Portland,3-Person Moderate-Income,Homeownership,N,2016
+West Portland,Couple with Family,Studio,Y,2016
+West Portland,Couple with Family,1-BR,Y,2016
+West Portland,Couple with Family,2-BR,Y,2016
+West Portland,Couple with Family,3-BR,Y,2016
+West Portland,Couple with Family,Homeownership,Y,2016
+West Portland,White,Studio,Y,2016
+West Portland,White,1-BR,Y,2016
+West Portland,White,2-BR,Y,2016
+West Portland,White,3-BR,N,2016
+West Portland,White,Homeownership,N,2016
+West Portland,Black,Studio,N,2016
+West Portland,Black,1-BR,N,2016
+West Portland,Black,2-BR,N,2016
+West Portland,Black,3-BR,N,2016
+West Portland,Black,Homeownership,N,2016
+West Portland,Latino,Studio,N,2016
+West Portland,Latino,1-BR,N,2016
+West Portland,Latino,2-BR,N,2016
+West Portland,Latino,3-BR,N,2016
+West Portland,Latino,Homeownership,N,2016
+West Portland,Native American,Studio,N,2016
+West Portland,Native American,1-BR,N,2016
+West Portland,Native American,2-BR,N,2016
+West Portland,Native American,3-BR,N,2016
+West Portland,Native American,Homeownership,N,2016
+West Portland,Asian,Studio,Y,2016
+West Portland,Asian,1-BR,Y,2016
+West Portland,Asian,2-BR,N,2016
+West Portland,Asian,3-BR,N,2016
+West Portland,Asian,Homeownership,N,2016
+West Portland,Senior,Studio,Y,2016
+West Portland,Senior,1-BR,N,2016
+West Portland,Senior,2-BR,N,2016
+West Portland,Senior,3-BR,N,2016
+West Portland,Senior,Homeownership,N,2016
+West Portland,Single Mother,Studio,N,2016
+West Portland,Single Mother,1-BR,N,2016
+West Portland,Single Mother,2-BR,N,2016
+West Portland,Single Mother,3-BR,N,2016
+West Portland,Single Mother,Homeownership,N,2016
+West Portland,Foreign-Born,Studio,Y,2016
+West Portland,Foreign-Born,1-BR,N,2016
+West Portland,Foreign-Born,2-BR,N,2016
+West Portland,Foreign-Born,3-BR,N,2016
+West Portland,Foreign-Born,Homeownership,N,2016
+Woodstock,Avg. Portland Household,Studio,Y,2016
+Woodstock,Avg. Portland Household,1-BR,Y,2016
+Woodstock,Avg. Portland Household,2-BR,Y,2016
+Woodstock,Avg. Portland Household,3-BR,Y,2016
+Woodstock,Avg. Portland Household,Homeownership,N,2016
+Woodstock,3-Person Extremely Low-Income,Studio,N,2016
+Woodstock,3-Person Extremely Low-Income,1-BR,N,2016
+Woodstock,3-Person Extremely Low-Income,2-BR,N,2016
+Woodstock,3-Person Extremely Low-Income,3-BR,N,2016
+Woodstock,3-Person Extremely Low-Income,Homeownership,N,2016
+Woodstock,3-Person Low-Income,Studio,Y,2016
+Woodstock,3-Person Low-Income,1-BR,N,2016
+Woodstock,3-Person Low-Income,2-BR,N,2016
+Woodstock,3-Person Low-Income,3-BR,N,2016
+Woodstock,3-Person Low-Income,Homeownership,N,2016
+Woodstock,3-Person Moderate-Income,Studio,Y,2016
+Woodstock,3-Person Moderate-Income,1-BR,Y,2016
+Woodstock,3-Person Moderate-Income,2-BR,Y,2016
+Woodstock,3-Person Moderate-Income,3-BR,Y,2016
+Woodstock,3-Person Moderate-Income,Homeownership,N,2016
+Woodstock,Couple with Family,Studio,Y,2016
+Woodstock,Couple with Family,1-BR,Y,2016
+Woodstock,Couple with Family,2-BR,Y,2016
+Woodstock,Couple with Family,3-BR,Y,2016
+Woodstock,Couple with Family,Homeownership,Y,2016
+Woodstock,White,Studio,Y,2016
+Woodstock,White,1-BR,Y,2016
+Woodstock,White,2-BR,Y,2016
+Woodstock,White,3-BR,Y,2016
+Woodstock,White,Homeownership,N,2016
+Woodstock,Black,Studio,N,2016
+Woodstock,Black,1-BR,N,2016
+Woodstock,Black,2-BR,N,2016
+Woodstock,Black,3-BR,N,2016
+Woodstock,Black,Homeownership,N,2016
+Woodstock,Latino,Studio,N,2016
+Woodstock,Latino,1-BR,N,2016
+Woodstock,Latino,2-BR,N,2016
+Woodstock,Latino,3-BR,N,2016
+Woodstock,Latino,Homeownership,N,2016
+Woodstock,Native American,Studio,N,2016
+Woodstock,Native American,1-BR,N,2016
+Woodstock,Native American,2-BR,N,2016
+Woodstock,Native American,3-BR,N,2016
+Woodstock,Native American,Homeownership,N,2016
+Woodstock,Asian,Studio,Y,2016
+Woodstock,Asian,1-BR,Y,2016
+Woodstock,Asian,2-BR,Y,2016
+Woodstock,Asian,3-BR,Y,2016
+Woodstock,Asian,Homeownership,N,2016
+Woodstock,Senior,Studio,Y,2016
+Woodstock,Senior,1-BR,N,2016
+Woodstock,Senior,2-BR,N,2016
+Woodstock,Senior,3-BR,N,2016
+Woodstock,Senior,Homeownership,N,2016
+Woodstock,Single Mother,Studio,N,2016
+Woodstock,Single Mother,1-BR,N,2016
+Woodstock,Single Mother,2-BR,N,2016
+Woodstock,Single Mother,3-BR,N,2016
+Woodstock,Single Mother,Homeownership,N,2016
+Woodstock,Foreign-Born,Studio,Y,2016
+Woodstock,Foreign-Born,1-BR,Y,2016
+Woodstock,Foreign-Born,2-BR,N,2016
+Woodstock,Foreign-Born,3-BR,N,2016
+Woodstock,Foreign-Born,Homeownership,N,2016
