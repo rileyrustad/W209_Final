@@ -19,7 +19,7 @@ var svg = d3.select("body")
     .attr("height", h);
 
 d3.json("data/shapes.geojson", function(json) {
-    console.log(json)
+    console.log(json);
     //Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
         .data(json.features)
@@ -36,7 +36,7 @@ d3.json("data/shapes.geojson", function(json) {
         .on("mouseout", function() {
             d3.select(this)
                 .attr("fill", "black")
-                .attr("stroke-width", '1');;
+                .attr("stroke-width", '1');
         })
         .on("click", function(d) {
             console.log(d.properties.Analysis_A)
