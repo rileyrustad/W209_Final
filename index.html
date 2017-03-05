@@ -2,41 +2,62 @@
 <html>
 <head>
 	<title>Portland Housing</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<script src="d3/d3.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
 </head>
 <body>
 <h1>Portland Housing Affordability</h1>
 
-<div class="report-year">
-	<h5>Report Year:</h5>
-	<button>2015</button>
-	<button>2016</button>
+<div class="dropdown text-center col-md-4">
+	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+		Report Year:
+		<span class="caret"></span></button>
+	<ul class="dropdown-menu">
+		<li><a href="#">2015</a></li>
+		<li><a href="#">2016</a></li>
+	</ul>
 </div>
-<div class="demographic">
-	<h5>Demographic</h5>
-	<button>Avg. Portland Household</button>
-	<button>3-Person Extremely Low-Income</button>
-	<button>3-Person Low-Income</button>
-	<button>3-Person Moderate-Income</button>
-	<button>Couple with Family</button>
-	<button>White</button>
-	<button>Black</button>
-	<button>Latino</button>
-	<button>Asian</button>
-	<button>Senior</button>
-	<button>Single Mother</button>
-	<button>Foreign-Born</button>
-	<button>Native American</button>
-	<button>Native American</button>
+	<div class="dropdown text-center col-md-4">
+		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+			Demographic
+			<span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Avg. Portland Household</a></li>
+			<li><a href="#">3-Person Extremely Low-Income</a></li>
+			<li><a href="#">3-Person Low-Income</a></li>
+			<li><a href="#">3-Person Moderate-Income</a></li>
+			<li><a href="#">Couple with Family</a></li>
+			<li><a href="#">White</a></li>
+			<li><a href="#">Black</a></li>
+			<li><a href="#">Latino</a></li>
+			<li><a href="#">Asian</a></li>
+			<li><a href="#">Senior</a></li>
+			<li><a href="#">Single Mother</a></li>
+			<li><a href="#">Foreign-Born</a></li>
+			<li><a href="#">Native American</a></li>
+			<li><a href="#">Native American</a></li>
+		</ul>
 </div>
-<div class="housing-size">
-	<h5>Housing Size</h5>
-	<button>Studio </button>
-	<button>1-BR</button>
-	<button>2-BR</button>
-	<button>3-BR</button>
-	<button>Homeownership</button></div>
+<div class="dropdown text-center col-md-4">
+	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+		Housing Size
+		<span class="caret"></span></button>
+	<ul class="dropdown-menu">
+		<li><a href="#">Studio </a></li>
+		<li><a href="#">1-BR</a></li>
+		<li><a href="#">2-BR</a></li>
+		<li><a href="#">3-BR</a></li>
+	</ul>
+</div>
+<div id="pdx-map"></div>
 <script src="script.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
