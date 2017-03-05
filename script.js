@@ -1,18 +1,16 @@
 
-var w = 500;
-var h = 400;
+var w = 650;
+var h = 500;
 
 var projection = d3.geoMercator()
     .center([-122.67,45.54])
-    .scale(60000)
+    .scale(80000)
     .translate([w / 2, h / 2]);
-
-
 
 var path = d3.geoPath()
     .projection(projection);
 
-var svg = d3.select("body")
+var svg = d3.select("#pdx-map")
     .append("svg")
     .attr("class","map")
     .attr("width", w)
@@ -31,7 +29,7 @@ d3.json("data/shapes.geojson", function(json) {
         .on("mouseover", function() {
             d3.select(this)
                 .attr("fill", "steelblue")
-                .attr("stroke-width", '5');
+                .attr("stroke-width", '3');
         })
         .on("mouseout", function() {
             d3.select(this)
@@ -40,7 +38,7 @@ d3.json("data/shapes.geojson", function(json) {
         })
         .on("click", function(d) {
             console.log(d.properties.Analysis_A)
-            d3.select("body")
+            d3.select(".pdx-map")
                 .selectAll(".neighborhood")
                 .data(d)
                 .enter()
