@@ -48,3 +48,7 @@ d3.json("data/shapes.geojson", function(json) {
         })
 
 });
+
+function updateMap (...args){
+console.log(args);
+};

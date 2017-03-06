@@ -12,44 +12,44 @@
 <body>
 <h1>Portland Housing Affordability</h1>
 
-<div class="dropdown text-center col-xs-4">
+<div class="dropdown text-center col-xs-4" id="report-year">
 	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 		Report Year:
 		<span class="caret"></span></button>
 	<ul class="dropdown-menu">
-		<li><a href="#">2015</a></li>
+		<li class="disabled"><a href="#">2015</a></li>
 		<li><a href="#">2016</a></li>
 	</ul>
 </div>
-	<div class="dropdown text-center col-xs-4">
+	<div class="dropdown text-center col-xs-4" id="demographic">
 		<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 			Demographic
 			<span class="caret"></span></button>
 		<ul class="dropdown-menu">
-			<li><a href="#">Avg. Portland Household</a></li>
-			<li><a href="#">3-Person Extremely Low-Income</a></li>
-			<li><a href="#">3-Person Low-Income</a></li>
-			<li><a href="#">3-Person Moderate-Income</a></li>
-			<li><a href="#">Couple with Family</a></li>
-			<li><a href="#">White</a></li>
-			<li><a href="#">Black</a></li>
-			<li><a href="#">Latino</a></li>
-			<li><a href="#">Asian</a></li>
-			<li><a href="#">Senior</a></li>
-			<li><a href="#">Single Mother</a></li>
-			<li><a href="#">Foreign-Born</a></li>
-			<li><a href="#">Native American</a></li>
-			<li><a href="#">Native American</a></li>
+			<li class="active"><a href="#" >Avg. Portland Household</a></li>
+			<li><a href="#" onclick="updateMap('blah');">3-Person Extremely Low-Income</a></li>
+			<li><a href="#" >3-Person Low-Income</a></li>
+			<li><a href="#" >3-Person Moderate-Income</a></li>
+			<li><a href="#" >Couple with Family</a></li>
+			<li><a href="#" >White</a></li>
+			<li><a href="#" >Black</a></li>
+			<li><a href="#" >Latino</a></li>
+			<li><a href="#" >Asian</a></li>
+			<li><a href="#" >Senior</a></li>
+			<li><a href="#" >Single Mother</a></li>
+			<li><a href="#" >Foreign-Born</a></li>
+			<li><a href="#" >Native American</a></li>
+			<li><a href="#" >Native American</a></li>
 		</ul>
 </div>
-<div class="dropdown text-center col-xs-4">
+<div class="dropdown text-center col-xs-4" id="housing-size">
 	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
 		Housing Size
 		<span class="caret"></span></button>
 	<ul class="dropdown-menu">
 		<li><a href="#">Studio </a></li>
 		<li><a href="#">1-BR</a></li>
-		<li><a href="#">2-BR</a></li>
+		<li class="active"><a href="#">2-BR</a></li>
 		<li><a href="#">3-BR</a></li>
 	</ul>
 </div>
