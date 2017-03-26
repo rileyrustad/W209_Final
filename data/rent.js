@@ -1,32 +1,32 @@
 var portlandRent = [
  {
-   "neighborhood": "122-Division",
-   "housing size": "Studio ",
+   "neighborhood": "122nd-Division",
+   "housing size": "Studio",
    "rent": "677"
  },
  {
-   "neighborhood": "122-Division",
+   "neighborhood": "122nd-Division",
    "housing size": "1-BR",
    "rent": "814"
  },
  {
-   "neighborhood": "122-Division",
+   "neighborhood": "122nd-Division",
    "housing size": "2-BR",
    "rent": "955"
  },
  {
-   "neighborhood": "122-Division",
+   "neighborhood": "122nd-Division",
    "housing size": "3-BR",
    "rent": "1234"
  },
  {
-   "neighborhood": "122-Division",
+   "neighborhood": "122nd-Division",
    "housing size": "Homeownership",
    "rent": "951"
  },
  {
    "neighborhood": "Belmont-Hawthorne-Division",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1017"
  },
  {
@@ -51,7 +51,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Centennial-Glenfair-Wilkes",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "791"
  },
  {
@@ -76,7 +76,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Central City",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1132"
  },
  {
@@ -101,7 +101,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Forest Park-Northwest Hills",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "-"
  },
  {
@@ -126,7 +126,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Gateway",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "474"
  },
  {
@@ -150,33 +150,33 @@ var portlandRent = [
    "rent": "1105"
  },
  {
-   "neighborhood": "Hayden Island",
-   "housing size": "Studio ",
+   "neighborhood": "Hayden Island-Bridgeton",
+   "housing size": "Studio",
    "rent": "-"
  },
  {
-   "neighborhood": "Hayden Island",
+   "neighborhood": "Hayden Island-Bridgeton",
    "housing size": "1-BR",
    "rent": "1586"
  },
  {
-   "neighborhood": "Hayden Island",
+   "neighborhood": "Hayden Island-Bridgeton",
    "housing size": "2-BR",
    "rent": "2334"
  },
  {
-   "neighborhood": "Hayden Island",
+   "neighborhood": "Hayden Island-Bridgeton",
    "housing size": "3-BR",
    "rent": "-"
  },
  {
-   "neighborhood": "Hayden Island",
+   "neighborhood": "Hayden Island-Bridgeton",
    "housing size": "Homeownership",
    "rent": "1221"
  },
  {
    "neighborhood": "Hillsdale-Multnomah-Barbur",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "-"
  },
  {
@@ -201,7 +201,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Hollywood",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1071"
  },
  {
@@ -226,7 +226,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Interstate Corridor",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1084"
  },
  {
@@ -251,7 +251,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Lents-Foster",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "950"
  },
  {
@@ -276,7 +276,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "MLK-Alberta",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1207"
  },
  {
@@ -301,7 +301,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Montavilla",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "930"
  },
  {
@@ -326,7 +326,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Northwest",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1095"
  },
  {
@@ -351,7 +351,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Parkrose-Argay",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "473"
  },
  {
@@ -375,33 +375,33 @@ var portlandRent = [
    "rent": "1132"
  },
  {
-   "neighborhood": "Pleasant Valley ",
-   "housing size": "Studio ",
+   "neighborhood": "Pleasant Valley",
+   "housing size": "Studio",
    "rent": "-"
  },
  {
-   "neighborhood": "Pleasant Valley ",
+   "neighborhood": "Pleasant Valley",
    "housing size": "1-BR",
    "rent": "815"
  },
  {
-   "neighborhood": "Pleasant Valley ",
+   "neighborhood": "Pleasant Valley",
    "housing size": "2-BR",
    "rent": "990"
  },
  {
-   "neighborhood": "Pleasant Valley ",
+   "neighborhood": "Pleasant Valley",
    "housing size": "3-BR",
    "rent": "1244"
  },
  {
-   "neighborhood": "Pleasant Valley ",
+   "neighborhood": "Pleasant Valley",
    "housing size": "Homeownership",
    "rent": "1241"
  },
  {
    "neighborhood": "Raleigh Hills",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "950"
  },
  {
@@ -426,7 +426,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Roseway-Cully",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "680"
  },
  {
@@ -451,7 +451,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Sellwood-Moreland-Brooklyn",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1159"
  },
  {
@@ -475,33 +475,33 @@ var portlandRent = [
    "rent": "1963"
  },
  {
-   "neighborhood": "South Portland-Maraquam Hill",
-   "housing size": "Studio ",
+   "neighborhood": "South Portland-Marquam Hill",
+   "housing size": "Studio",
    "rent": "1332"
  },
  {
-   "neighborhood": "South Portland-Maraquam Hill",
+   "neighborhood": "South Portland-Marquam Hill",
    "housing size": "1-BR",
    "rent": "1405"
  },
  {
-   "neighborhood": "South Portland-Maraquam Hill",
+   "neighborhood": "South Portland-Marquam Hill",
    "housing size": "2-BR",
    "rent": "2116"
  },
  {
-   "neighborhood": "South Portland-Maraquam Hill",
+   "neighborhood": "South Portland-Marquam Hill",
    "housing size": "3-BR",
    "rent": "1462"
  },
  {
-   "neighborhood": "South Portland-Maraquam Hill",
+   "neighborhood": "South Portland-Marquam Hill",
    "housing size": "Homeownership",
    "rent": "1918"
  },
  {
    "neighborhood": "St. Johns",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "1156"
  },
  {
@@ -525,33 +525,33 @@ var portlandRent = [
    "rent": "1241"
  },
  {
-   "neighborhood": "Tryon Creek-South Terwilliger",
-   "housing size": "Studio ",
+   "neighborhood": "Tryon Creek-Riverdale",
+   "housing size": "Studio",
    "rent": "849"
  },
  {
-   "neighborhood": "Tryon Creek-South Terwilliger",
+   "neighborhood": "Tryon Creek-Riverdale",
    "housing size": "1-BR",
    "rent": "1046"
  },
  {
-   "neighborhood": "Tryon Creek-South Terwilliger",
+   "neighborhood": "Tryon Creek-Riverdale",
    "housing size": "2-BR",
    "rent": "1279"
  },
  {
-   "neighborhood": "Tryon Creek-South Terwilliger",
+   "neighborhood": "Tryon Creek-Riverdale",
    "housing size": "3-BR",
    "rent": "-"
  },
  {
-   "neighborhood": "Tryon Creek-South Terwilliger",
+   "neighborhood": "Tryon Creek-Riverdale",
    "housing size": "Homeownership",
    "rent": "2120"
  },
  {
    "neighborhood": "West Portland",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "923"
  },
  {
@@ -576,7 +576,7 @@ var portlandRent = [
  },
  {
    "neighborhood": "Woodstock",
-   "housing size": "Studio ",
+   "housing size": "Studio",
    "rent": "927"
  },
  {
