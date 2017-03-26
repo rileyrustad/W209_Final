@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portland Housing</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<link rel="stylesheet" href="css/style.css">
+    <title>Portland Housing</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 <h1>Portland Housing Affordability</h1>
 <div class="about col-sm-12">
-<div class="col-sm-8 col-sm-offset-2">
-	<p>Vaporware echo park waistcoat, lomo narwhal chillwave vexillologist green juice hexagon disrupt heirloom selfies tousled locavore pinterest. Church-key intelligentsia hell of, typewriter schlitz try-hard master cleanse offal health goth blog. Venmo la croix locavore, fashion axe distillery deep v etsy umami +1. 8-bit bushwick tumblr, stumptown affogato ramps woke butcher poutine shoreditch. Health goth ugh heirloom, truffaut shoreditch before they sold out direct trade seitan bicycle rights swag hashtag. Blue bottle drinking vinegar mumblecore, intelligentsia microdosing direct trade vegan shoreditch umami tousled squid gastropub narwhal DIY. Quinoa vegan marfa coloring book, stumptown vaporware humblebrag synth celiac.</p>
-</div>
+    <div class="col-sm-8 col-sm-offset-2">
+        <p>Vaporware echo park waistcoat, lomo narwhal chillwave vexillologist green juice hexagon disrupt heirloom
+            selfies tousled locavore pinterest. Church-key intelligentsia hell of, typewriter schlitz try-hard master
+            cleanse offal health goth blog. Venmo la croix locavore, fashion axe distillery deep v etsy umami +1. 8-bit
+            bushwick tumblr, stumptown affogato ramps woke butcher poutine shoreditch. Health goth ugh heirloom,
+            truffaut shoreditch before they sold out direct trade seitan bicycle rights swag hashtag. Blue bottle
+            drinking vinegar mumblecore, intelligentsia microdosing direct trade vegan shoreditch umami tousled squid
+            gastropub narwhal DIY. Quinoa vegan marfa coloring book, stumptown vaporware humblebrag synth celiac.</p>
+    </div>
 </div>
 
 <div class="col-sm-3">
-	<div id="controls" class="well">
-		<h4 id="button">Choose a Portlandian:</h4>
-		<p><strong>Demographic</strong></p>
-		<form>
-			<input onclick="updateMap()" type="radio" name="demographic" checked value="Avg. Portland Household"> Avg. Portland Household<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="3-Person Extremely Low-Income"> 3-Person Extremely Low-Income<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="3-Person Low-Income"> 3-Person Low-Income<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="3-Person Moderate-Income"> 3-Person Moderate-Income<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Couple with Family"> Couple with Family<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="White"> White<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Black"> Black<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Latino"> Latino<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Asian"> Asian<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Senior"> Senior<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Single Mother"> Single Mother<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Foreign-Born"> Foreign-Born<br>
-			<input onclick="updateMap()" type="radio" name="demographic" value="Native American"> Native American<br>
-		</form>
-		<br>
-		<p><strong>Housing Size</strong></p>
-		<form>
-			<input onclick="updateMap()" type="radio" name="housing_size" value="Studio"> Studio<br>
-			<input onclick="updateMap()" type="radio" name="housing_size" value="1-BR"> 1-BR<br>
-			<input onclick="updateMap()" type="radio" name="housing_size" value="2-BR" checked> 2-BR<br>
-			<input onclick="updateMap()" type="radio" name="housing_size" value="3-BR"> 3-BR
-		</form>
-	</div>
-	<div class="well">
-		<h4>Custom Controls:</h4>
-		<div id="sliders"></div>
-	</div>
-	</div>
+    <div id="controls" class="well">
+        <h4 id="button">Choose a Portlandian:</h4>
+        <p><strong>Demographic</strong></p>
+        <form>
+            <input onclick="updateMap()" type="radio" name="demographic" checked value="Avg. Portland Household"> Avg.
+            Portland Household<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Extremely Low-Income"> 3-Person
+            Extremely Low-Income<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Low-Income"> 3-Person
+            Low-Income<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Moderate-Income"> 3-Person
+            Moderate-Income<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Couple with Family"> Couple with
+            Family<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="White"> White<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Black"> Black<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Latino"> Latino<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Asian"> Asian<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Senior"> Senior<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Single Mother"> Single Mother<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Foreign-Born"> Foreign-Born<br>
+            <input onclick="updateMap()" type="radio" name="demographic" value="Native American"> Native American<br>
+        </form>
+        <br>
+        <p><strong>Housing Size</strong></p>
+        <form>
+            <input onclick="updateMap()" type="radio" name="housing_size" value="Studio"> Studio<br>
+            <input onclick="updateMap()" type="radio" name="housing_size" value="1-BR"> 1-BR<br>
+            <input onclick="updateMap()" type="radio" name="housing_size" value="2-BR" checked> 2-BR<br>
+            <input onclick="updateMap()" type="radio" name="housing_size" value="3-BR"> 3-BR
+        </form>
+    </div>
+    <div class="well">
+        <h4>Custom Controls:</h4>
+        <div id="sliders"></div>
+    </div>
+</div>
 </div>
 <div class="col-sm-9">
-	<div id="map"></div>
+    <div id="map"></div>
 </div>
 <!--<script src="script.js"></script>-->
 <script src="data/shapes.js"></script>
@@ -73,9 +87,9 @@
         'Imagery © <a href="http://mapbox.com">Mapbox</a>'
     }).addTo(map);
 
-//    var neighborhoods = L.geoJson(neighborhoodData).addTo(map);
+    //    var neighborhoods = L.geoJson(neighborhoodData).addTo(map);
 
-	function getDemo() {
+    function getDemo() {
         return $("input[name='demographic']:checked").val()
     }
 
@@ -83,29 +97,82 @@
         return $("input[name='housing_size']:checked").val()
     }
 
+    // control that shows state info on hover
+    var info = L.control();
+
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info');
+        this.update();
+        return this._div;
+    };
+
+    info.update = function (props) {
+        var demo = getDemo();
+        var size = getSize();
+        if (props) {
+
+            for (i = 0; i < portlandRent.length; i++) {
+//                console.log(i)
+
+                if (portlandRent[i]["housing size"] == size) {
+
+
+                    if (portlandRent[i].neighborhood == props.Analysis_A) {
+                        console.log(portlandRent[i].neighborhood);
+                        console.log(props.Analysis_A);
+                        var price = portlandRent[i].rent
+//                        console.log(i)
+                    }
+                }
+                ;
+            }
+            ;
+
+            for (i = 0; i < portlandDemo.length; i++) {
+                if (portlandDemo[i].demographic == demo) {
+                    var can_afford = portlandDemo[i].rent
+                }
+                ;
+            }
+            ;
+
+            this._div.innerHTML = '<h4>Neighborhood Affordability</h4>' + (props ?
+                    '<b>' + props.Analysis_A + '</b><br />Budget: $' + can_afford +
+                    '</b><br />Rental Cost: $' + price
+                    : 'Hover over a neighborhood');
+        }
+         else {
+            this._div.innerHTML ='<h4>Neighborhood Affordability</h4></b>Hover over a neighborhood'
+        }
+    };
+    info.addTo(map);
+
+
     function getColor(d) {
         var demo = getDemo();
         var size = getSize();
 
-        for(i=0; i<portlandDemo.length; i++) {
-            if(demo == portlandDemo[i].demographic){
+        for (i = 0; i < portlandDemo.length; i++) {
+            if (demo == portlandDemo[i].demographic) {
                 var can_afford = portlandDemo[i].rent;
-			}
-		}
-        for(i=0; i<portlandRent.length; i++) {
-            if(size == portlandRent[i]["housing size"] ){
+            }
+        }
+        for (i = 0; i < portlandRent.length; i++) {
+            if (size == portlandRent[i]["housing size"]) {
                 if (d == portlandRent[i].neighborhood) {
                     var cost = portlandRent[i].rent;
                 }
             }
         }
-        if(cost > can_afford) {
-			return '#F08080'
-		} {
+        if (cost > can_afford) {
+            return '#F08080'
+        }
+        {
             return '#add8e6'
-		}
+        }
 
-    };
+    }
+    ;
 
     function style(feature) {
         return {
@@ -115,45 +182,85 @@
             color: 'white',
             fillOpacity: 0.5
         };
-    };
+    }
+    ;
 
     var neighborhoods = L.geoJson(neighborhoodData, {style: style}).addTo(map);
 
-	function updateMap() {
+    function updateMap() {
         neighborhoods.setStyle(style)
-	}
+    }
 
-	updateMap();
+    updateMap();
 
-    $( document ).ready(function(){
+    $(document).ready(function () {
         var h = $("#controls").outerHeight();
         $("#map").height(h)
-	});
-    $( window ).resize(function() {
-	var h = $("#controls").outerHeight();
-	$("#map").height(h)
+    });
+    $(window).resize(function () {
+        var h = $("#controls").outerHeight();
+        $("#map").height(h)
     });
 
-    $( window ).resize(function() {
+    $(window).resize(function () {
         var w = $("#sliders").width();
         $("#slider_svg").width(w)
 //		TODO: update svg
     });
 
     d3.select('#sliders')
-		.append('svg')
+        .append('svg')
         .attr('id', 'slider_svg');
 
     var svg = d3.select('#slider_svg')
-        .attr('height', 100)
-		.attr('width', $("#sliders").width()),
+            .attr('height', 100)
+            .attr('width', $("#sliders").width()),
         margin = {right: 30, left: 30},
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height");
 
+    function highlightFeature(e) {
+        var layer = e.target;
+
+        layer.setStyle({
+            weight: 5,
+            color: '#666',
+            dashArray: '',
+            fillOpacity: 0.7
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+
+        info.update(layer.feature.properties);
+    }
+
+    var geojson;
+
+    function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        info.update();
+    }
+
+    function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+    }
+
+    function onEachFeature(feature, layer) {
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
+
+    geojson = L.geoJson(neighborhoodData, {
+        style: style,
+        onEachFeature: onEachFeature
+    }).addTo(map);
 
 </script>
-
 
 
 </body>
