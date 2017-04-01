@@ -118,8 +118,6 @@
 
 
                     if (portlandRent[i].neighborhood == props.Analysis_A) {
-                        console.log(portlandRent[i].neighborhood);
-                        console.log(props.Analysis_A);
                         var price = portlandRent[i].rent
 //                        console.log(i)
                     }
@@ -164,6 +162,11 @@
                 }
             }
         }
+//        console.log(cost);
+        if(cost == '-'){
+            return '#d3d3d3'
+//            console.log(cost);
+        }
         if (cost > can_afford) {
             return '#F08080'
         }
@@ -185,13 +188,9 @@
     }
     ;
 
-    var neighborhoods = L.geoJson(neighborhoodData, {style: style}).addTo(map);
+//    var neighborhoods = L.geoJson(neighborhoodData, {style: style}).addTo(map);
 
-    function updateMap() {
-        neighborhoods.setStyle(style)
-    }
 
-    updateMap();
 
     $(document).ready(function () {
         var h = $("#controls").outerHeight();
@@ -208,16 +207,6 @@
 //		TODO: update svg
     });
 
-    d3.select('#sliders')
-        .append('svg')
-        .attr('id', 'slider_svg');
-
-    var svg = d3.select('#slider_svg')
-            .attr('height', 100)
-            .attr('width', $("#sliders").width()),
-        margin = {right: 30, left: 30},
-        width = +svg.attr("width") - margin.left - margin.right,
-        height = +svg.attr("height");
 
     function highlightFeature(e) {
         var layer = e.target;
@@ -259,6 +248,104 @@
         style: style,
         onEachFeature: onEachFeature
     }).addTo(map);
+
+    function updateMap() {
+        geojson.setStyle(style)
+    }
+
+    updateMap();
+
+    var legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend'),
+            grades = ["Can Afford", "Can't Afford","No Data"],
+            labels = [],
+            colors = ['#F08080','#add8e6','#d3d3d3'],
+            from, to;
+
+        for (var i = 0; i < grades.length; i++) {
+            from = grades[i];
+            to = grades[i + 1];
+
+            labels.push(
+                '<i style="background:' + colors[i] + '"></i> ' +
+                from);
+        }
+
+        div.innerHTML = labels.join('<br>');
+        return div;
+    };
+
+    legend.addTo(map);
+
+
+    d3.select('#sliders')
+        .append('svg')
+        .attr('id', 'slider_svg');
+
+    var svg = d3.select('#slider_svg')
+            .attr('height', 100)
+            .attr('width', $("#sliders").width()),
+        margin = {right: 30, left: 30},
+        width = svg.attr("width") - margin.left - margin.right,
+        height = svg.attr("height");
+
+    var x = d3.scaleLinear()
+        .domain(0,100)
+        .range(0,width)
+        .clamp(true);
+
+    var startValue = x(50),
+    startingValue = 50;
+
+//    var brush = d3.brushX()
+//        .x(xScale)
+//        .extent([startingValue,startingValue])
+//        .on("brush", brushed);
+
+    var slider = svg.append("g")
+        .attr("class", "slider")
+        .attr("transform", "translate(" + margin.left + "," + height / 2 + ")");
+
+    slider.append("line")
+        .attr("class", "track")
+        .attr("x1", x.range()[0])
+        .attr("x2", x.range()[1])
+        .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-inset")
+        .select(function() { return this.parentNode.appendChild(this.cloneNode(true)); })
+        .attr("class", "track-overlay")
+        .call(d3.drag()
+            .on("start.interrupt", function() { slider.interrupt(); })
+            .on("start drag", function() { hue(x.invert(d3.event.x)); }));
+    slider.insert("g", ".track-overlay")
+        .attr("class", "ticks")
+        .attr("transform", "translate(0," + 18 + ")")
+        .selectAll("text")
+        .data(x.ticks(10))
+        .enter().append("text")
+        .attr("x", x)
+        .attr("text-anchor", "middle")
+        .text(function(d) { return d + "°"; });
+
+    var handle = slider.insert("circle", ".track-overlay")
+        .attr("class", "handle")
+        .attr("r", 9);
+
+    slider.transition() // Gratuitous intro!
+        .duration(750)
+        .tween("hue", function() {
+            var i = d3.interpolate(0, 70);
+            return function(t) { hue(i(t)); };
+        });
+
+    function hue(h) {
+        handle.attr("cx", x(h));
+        svg.style("background-color", d3.hsl(h, 0.8, 0.8));
+    }
+
 
 </script>
 
