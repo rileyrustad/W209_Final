@@ -28,7 +28,7 @@ var portlandDemo = [
    "Households with Childre": 0.16
  },
  {
-   "demographic": "Couple with Famly ",
+   "demographic": "Couple with Family",
    "income": 84114,
    "rent": 2102.85,
    "Household composition": "4.04",
@@ -42,7 +42,7 @@ var portlandDemo = [
    "Households with Childre": 0.24
  },
  {
-   "demographic": "Black ",
+   "demographic": "Black",
    "income": 27441,
    "rent": 686.025,
    "Household composition": "1.84",
