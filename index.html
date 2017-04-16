@@ -12,7 +12,15 @@
             crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+<style> /* set the CSS */
 
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+</style>
 </head>
 <body>
 <h1>Portland Housing Affordability</h1>
@@ -70,6 +78,15 @@
 <div class="col-sm-9">
     <div id="map"></div>
 </div>
+<div class="col-sm-6">
+
+    <div id='neighborhood_table_div'></div>
+    <div id='demo_table_div'></div>
+    <div id='demo2_table_div'></div>
+    <div id='graph'></div>
+
+</div>
+
 <!--<script src="script.js"></script>-->
 <script src="data/shapes.js"></script>
 <script src="data/demographics.js"></script>
@@ -206,6 +223,8 @@
         $("#slider_svg").width(w)
 //		TODO: update svg
     });
+    //$("#neighborhood_table").attr("class", "table");
+
 
 
     function highlightFeature(e) {
@@ -236,13 +255,340 @@
         map.fitBounds(e.target.getBounds());
     }
 
+
+/////////////////
+
+  function tabulate(number) {
+
+    $('#neighborhood_table').remove();
+    //d3.selectAll('rows').remove();
+
+    d3.csv('NeighborhoodHousingMarket.csv', function (error, data1) {
+
+    var columns = ["Rental Type", "Price"];
+
+    //console.log(data1);
+    //console.log(number);
+    //number = 3;
+    table_array = [];
+
+    ids = data1.map(function(d) { return d.NP_ID; });
+    unit_size = data1.map(function(d) { return d.NHM_UnitSize; });
+    rent_amt = data1.map(function(d) { return d.NHM_Rent_Amt; });
+
+   for (i=0; i<ids.length; i++){
+      row_array = [];
+      if(ids[i] == number){
+          row_array.push(unit_size[i]);
+          row_array.push(rent_amt[i]);
+          table_array.push(row_array)
+        }
+      }
+        //console.log(table_array);
+
+    var table = d3.select('#neighborhood_table_div').append('table')
+    var thead = table.append('thead')
+      .append('tr')
+    .selectAll("th")
+      .data(columns)
+    .enter()
+      .append("th")
+      .text(function(column) { return column; });
+
+    var tbody = table.append('tbody')
+ //   table.addClass('table-striped');
+
+    table.attr('id', 'neighborhood_table');
+    $("#neighborhood_table").attr("class", "table table-hover table-striped");
+   // table.attr('class', 'table');
+    // append the header row
+//    thead.append('tr');
+
+
+    // create a row for each object in the data
+    var rows = tbody.selectAll('tr')
+      .data(table_array.filter(function(d,i){  // don't need the first row
+            return d;
+        }))
+      .enter()
+      .append('tr');
+    //rows.attr('class', 'neighborhood_rows');
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll('td')
+      .data(function (d) { return d;})
+      .enter()
+      .append('td')
+      .text(function (d) { return d; });
+
+
+    return table;
+    });
+   // d3.csv('hhTooltips.csv', function (error, data2) {
+    //  console.log(data2);
+    //});
+   // $("#neighborhood_table").attr("class", "table");
+
+  }
+
+
+  function tabulate_demographics(number) {
+    //console.log('hihi');
+    $('#demo_table').remove();
+    //d3.selectAll('rows').remove();
+
+    d3.csv('hh2.csv', function (error, data1) {
+
+
+    var columns = ["Household Type", "Population"];
+
+    //console.log(data1);
+    //console.log(number);
+    //number = 3;
+    table_array = [];
+
+    ids = data1.map(function(d) { return d.NP_ID; });
+    ethnicity = data1.map(function(d) { return d.Ethnicity; });
+    households = data1.map(function(d) { return d.Households; });
+
+   for (i=0; i<ids.length; i++){
+      row_array = [];
+      if(ids[i] == number){
+         // row_array.push(ids[i]);
+          row_array.push(ethnicity[i]);
+          row_array.push(households[i]);
+          table_array.push(row_array)
+        }
+      }
+    //console.log(table_array);
+
+    var table = d3.select('#demo_table_div').append('table')
+    var thead = table.append('thead')
+      .append('tr')
+    .selectAll("th")
+      .data(columns)
+    .enter()
+      .append("th")
+      .text(function(column) { return column; });
+    var tbody = table.append('tbody')
+
+    table.attr('id', 'demo_table');
+    $("#demo_table").attr("class", "table table-hover table-striped");
+
+    // append the header row
+//    thead.append('tr');
+
+
+    // create a row for each object in the data
+    var rows = tbody.selectAll('tr')
+      .data(table_array.filter(function(d,i){  // don't need the first row
+            return d;
+        }))
+      .enter()
+      .append('tr');
+    //rows.attr('class', 'neighborhood_rows');
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll('td')
+      .data(function (d) { return d;})
+      .enter()
+      .append('td')
+      .text(function (d) { return d; });
+
+
+    return table;
+    });
+
+  }
+
+
+  function tabulate_demographics2(number) {
+
+    $('#demo2_table').remove();
+    //d3.selectAll('rows').remove();
+
+    d3.csv('demographics.csv', function (error, data1) {
+    var columns = ["Ethnicity", "Population"];
+
+    //console.log(data1);
+    //console.log(number);
+    //number = 3;
+    table_array = [];
+
+    ids = data1.map(function(d) { return d.NP_ID; });
+    ethnicity = data1.map(function(d) { return d.Ethnicity; });
+    population = data1.map(function(d) { return d.Population; });
+
+   for (i=0; i<ids.length; i++){
+      row_array = [];
+      if(ids[i] == number){
+          row_array.push(ethnicity[i]);
+          row_array.push(population[i]);
+          table_array.push(row_array)
+        }
+      }
+        //console.log(table_array);
+
+    var table = d3.select('#demo2_table_div').append('table')
+    var thead = table.append('thead')
+      .append('tr')
+    .selectAll("th")
+      .data(columns)
+    .enter()
+      .append("th")
+      .text(function(column) { return column; });
+    var tbody = table.append('tbody')
+
+    table.attr('id', 'demo2_table');
+    $("#demo2_table").attr("class", "table table-hover table-striped");
+
+    // append the header row
+//    thead.append('tr');
+
+
+    // create a row for each object in the data
+    var rows = tbody.selectAll('tr')
+      .data(table_array.filter(function(d,i){  // don't need the first row
+            return d;
+        }))
+      .enter()
+      .append('tr');
+    //rows.attr('class', 'neighborhood_rows');
+
+    // create a cell in each row for each column
+    var cells = rows.selectAll('td')
+      .data(function (d) { return d;})
+      .enter()
+      .append('td')
+      .text(function (d) { return d; });
+
+
+    return table;
+    });
+
+  }
+
+
+
+  function tabulate_supply(number) {
+    $('#supply_graph').remove();
+
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// parse the date / time
+var parseTime = d3.timeParse("%y");
+
+// set the ranges
+var x = d3.scaleTime().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+
+// define the line
+var valueline = d3.line()
+    .x(function(d) { return x(d.ReportYear); })
+    .y(function(d) { return y(d.SingleFamilyPermits); });
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#graph").append("svg")
+    .attr('id', 'supply_graph')
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")")
+    .text("Rental Graph");
+
+// Get the data
+d3.csv("sales.csv", function(error, data) {
+  if (error) throw error;
+
+
+table_array = [];
+
+ids = data.map(function(d) { return d.NP_ID; });
+rep_yr = data.map(function(d) { return d.ReportYear; });
+sfu = data.map(function(d) { return d.SingleFamilyPermits; });
+mfu = data.map(function(d) { return d.MultiFamilyUnits; });
+
+console.log(number);
+var neighborhood_object = {};
+
+for (i=0; i<ids.length; i++){
+  row_array = [];
+  if(ids[i] == number){
+        row_array.push(rep_yr[i]);
+        row_array.push(sfu[i]);
+        row_array.push(mfu[i])
+        table_array.push(row_array)
+    }
+  }
+//console.log(table_array);
+
+
+var data5 = table_array.map(function(d) {
+    return {
+      ReportYear: d[0],
+      SingleFamilyPermits: d[1]
+    };
+});
+
+//console.log(data5)
+
+  // format the data
+   data5.forEach(function(d) {
+         //console.log(d);
+         d.ReportYear = parseTime(d.ReportYear);
+         d.SingleFamilyUnits = d.SingleFamilyPermits;
+
+   });
+
+  // Scale the range of the data
+  x.domain(d3.extent(data5, function(d) { return d.ReportYear; }));
+  y.domain([0, d3.max(data5, function(d) { return d.SingleFamilyPermits; })]);
+  // Add the valueline path.
+  svg.append("path")
+      .data([data5])
+      .attr("class", "line")
+      .attr("d", valueline);
+
+  // Add the X Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // Add the Y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+   });
+}
+
+
+
+
+////////////////////
+
+
+
     function onEachFeature(feature, layer) {
         layer.on({
             mouseover: highlightFeature,
-            mouseout: resetHighlight,
-            click: zoomToFeature
-        });
+            mouseout: resetHighlight
+        }),
+        layer.on('click', function(e){
+            id = feature['properties']['OBJECTID'];
+            tabulate(id);
+            tabulate_demographics(id);
+            tabulate_demographics2(id);
+            tabulate_supply(id);
+            //console.log(id);
+        })
+
     }
+
+
 
     geojson = L.geoJson(neighborhoodData, {
         style: style,
@@ -345,6 +691,8 @@
         handle.attr("cx", x(h));
         svg.style("background-color", d3.hsl(h, 0.8, 0.8));
     }
+
+    //$("#neighborhood_table").attr("class", "table");
 
 
 </script>
