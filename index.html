@@ -119,11 +119,12 @@
     //    var neighborhoods = L.geoJson(neighborhoodData).addTo(map);
 
     function getDemo() {
-        if ($("input[name='demographic']:checked").val() == 'Custom') {
-            console.log($('#custom').val());
-
-            return $('#custom').val();
-        }
+//        if ($("input[name='demographic']:checked").val() == 'Custom') {
+//            console.log($('#custom').val());
+//
+//            return $('#custom').val();
+//        }
+        console.log($("input[name='demographic']:checked").val())
         return $("input[name='demographic']:checked").val()
     }
 
@@ -162,9 +163,11 @@
 
             for (i = 0; i < portlandDemo.length; i++) {
                 if (portlandDemo[i].demographic == demo) {
-                    var can_afford = portlandDemo[i].rent
+                    var can_afford = portlandDemo[i].rent;
+                } else if (demo == 'Custom'){
+                    var can_afford = Number($('#custom').val())
                 }
-                
+
 
                 ;
             }
@@ -189,6 +192,8 @@
         for (i = 0; i < portlandDemo.length; i++) {
             if (demo == portlandDemo[i].demographic) {
                 var can_afford = portlandDemo[i].rent;
+            } else if (demo == 'Custom'){
+                var can_afford = Number($('#custom').val())
             }
         }
         for (i = 0; i < portlandRent.length; i++) {
