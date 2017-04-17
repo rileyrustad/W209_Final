@@ -87,7 +87,7 @@
     <div id='demo_table_div'></div>
     <div id='demo2_table_div'></div>
     <div id='graph'>
-        <h3> Permits for Multi Family and Single Family Houses </h3>
+        <h3> Rent Prices 2008 to 2016 Neighborhood vs Portland (Red) </h3>
     </div>
 
 </div>
@@ -521,7 +521,7 @@
   function tabulate_supply(number) {
     $('#supply_graph').remove();
 
-var margin = {top: 20, right: 20, bottom: 30, left: 50},
+var margin = {top: 0, right: 20, bottom: 20, left: 50},
     width = 960 - margin.left - margin.right,
     height = 700 - margin.top - margin.bottom;
 
@@ -534,13 +534,13 @@ var y = d3.scaleLinear().range([height, 0]);
 
 // define the line
 var valueline = d3.line()
-    .x(function(d) { return x(d.ReportYear); })
-    .y(function(d) { return y(d.SingleFamilyPermits); });
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.Rent); });
   //  .y(function(d) { return y(d.MultiFamilyPermits); });
 
 var valueline2 = d3.line()
-    .x(function(d) { return x(d.ReportYear); })
-    .y(function(d) { return y(d.MultiFamilyPermits); });
+    .x(function(d) { return x(d.Year); })
+    .y(function(d) { return y(d.PRent); });
 // append the svg obgect to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
@@ -554,60 +554,71 @@ var svg = d3.select("#graph").append("svg")
     .text("Rental Graph");
 
 // Get the data
-d3.csv("sales.csv", function(error, data) {
+d3.csv("renttrends.csv", function(error, data) {
   if (error) throw error;
 
 
 table_array = [];
 
 ids = data.map(function(d) { return d.NP_ID; });
-rep_yr = data.map(function(d) { return d.ReportYear; });
-sfp = data.map(function(d) { return d.SingleFamilyPermits; });
-mfp = data.map(function(d) { return d.MultiFamilyPermits; });
+yr = data.map(function(d) { return d.Year; });
+rent = data.map(function(d) { return d.Rent; });
+inv = data.map(function(d) { return d.Inventory; });
 
 console.log(number);
-var neighborhood_object = {};
+
+portland_array= [];
+for (i=0; i<ids.length; i++){
+ portland_row = [];
+ if(ids[i] == 25){
+      portland_array.push(rent[i]);
+ }
+}
+//console.log(portland_array)
+original_i=-1;
 
 for (i=0; i<ids.length; i++){
   row_array = [];
   if(ids[i] == number){
-        row_array.push(rep_yr[i]);
-        row_array.push(sfp[i]);
-        row_array.push(mfp[i])
+        original_i++;
+        row_array.push(yr[i]);
+        row_array.push(rent[i]);
+        row_array.push(inv[i]);
+        row_array.push(portland_array[original_i]);
         table_array.push(row_array)
     }
   }
-//console.log(table_array);
+console.log(table_array);
 
 
 var data5 = table_array.map(function(d) {
     return {
-      ReportYear: d[0],
-      SingleFamilyPermits: d[1],
-      MultiFamilyPermits: d[2]
+      Year: d[0],
+      Rent: d[1],
+      PRent: d[3]
     };
 });
 
-//console.log(data5)
+console.log(data5);
 
   // format the data
    data5.forEach(function(d) {
          //console.log(d);
-         d.ReportYear = parseTime(d.ReportYear);
-         d.SingleFamilyPermits = d.SingleFamilyPermits;
-         d.MultiFamilyPermits = d.MultiFamilyPermits;
+         d.Year = parseTime(d.Year);
+         d.Rent = d.Rent;
+         d.PRent = d.PRent;
 
    });
    //console.log(data5);
    //console.log(Math.max(data5));
 
-single_max = d3.max(data5, function(d){return d.SingleFamilyPermits;});
-multi_max = d3.max(data5, function(d){return d.MultiFamilyPermits;});
+//single_max = d3.max(data5, function(d){return d.SingleFamilyPermits;});
+//multi_max = d3.max(data5, function(d){return d.MultiFamilyPermits;});
 
-console.log('max', Math.max(single_max, multi_max));
+//console.log('max', Math.max(single_max, multi_max));
   // Scale the range of the data
-  x.domain(d3.extent(data5, function(d) { return d.ReportYear; }));
-  y.domain([0, Math.max(single_max, multi_max)]);// d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
+  x.domain(d3.extent(data5, function(d) { return d.Year; }));
+  y.domain([600, 1750]);//d3.max(data5, function(d) { return d.Rent;})]);// d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
  // y.domain([0, d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
 
   // Add the valueline path.
