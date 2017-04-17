@@ -81,7 +81,7 @@
 <div class="col-sm-9">
     <div id="map"></div>
 </div>
-<div class="col-sm-6">
+<div class="col-sm-8">
 
     <div id='neighborhood_table_div'></div>
     <div id='demo_table_div'></div>
@@ -270,7 +270,7 @@
 
     d3.csv('NeighborhoodHousingMarket.csv', function (error, data1) {
 
-    var columns = ["Rental Type", "Price"];
+    var columns = ["Rental Type", "Neighborhood Price", "Portland Price"];
 
     //console.log(data1);
     //console.log(number);
@@ -281,15 +281,29 @@
     unit_size = data1.map(function(d) { return d.NHM_UnitSize; });
     rent_amt = data1.map(function(d) { return d.NHM_Rent_Amt; });
 
+   portland_array= [];
+   for (i=0; i<ids.length; i++){
+     portland_row = [];
+     if(ids[i] == 25){
+          portland_array.push(d3.format(',')(rent_amt[i]));
+     }
+    }
+    //console.log(portland_array);
+    original_i=-1;
    for (i=0; i<ids.length; i++){
       row_array = [];
       if(ids[i] == number){
+          original_i++;
+          //console.log(original_i);
           row_array.push(unit_size[i]);
           row_array.push(d3.format(',')(rent_amt[i]));
-          table_array.push(row_array)
-        }
+          row_array.push(portland_array[original_i]);
       }
-        //console.log(table_array);
+      table_array.push(row_array);
+    }
+    //table_array.push(portland_array);
+
+    //console.log(table_array);
 
     var table = d3.select('#neighborhood_table_div').append('table')
     var thead = table.append('thead')
@@ -345,7 +359,7 @@
     d3.csv('hh2.csv', function (error, data1) {
 
 
-    var columns = ["Household Type", "Population"];
+    var columns = ["Household Type", "Neighborhood Population", "Portland Population"];
 
     //console.log(data1);
     //console.log(number);
@@ -356,16 +370,30 @@
     ethnicity = data1.map(function(d) { return d.Ethnicity; });
     households = data1.map(function(d) { return d.Households; });
 
+   portland_array= [];
+   for (i=0; i<ids.length; i++){
+     portland_row = [];
+     if(ids[i] == 25){
+          portland_array.push(d3.format(',')(households[i]));
+     }
+    }
+    //console.log(portland_array)
+   original_i=-1;
    for (i=0; i<ids.length; i++){
       row_array = [];
       if(ids[i] == number){
          // row_array.push(ids[i]);
+          original_i++;
           row_array.push(ethnicity[i]);
           row_array.push(d3.format(',')(households[i]));
+          row_array.push(portland_array[original_i]);
+
           table_array.push(row_array)
         }
       }
     //console.log(table_array);
+
+
 
     var table = d3.select('#demo_table_div').append('table')
     var thead = table.append('thead')
@@ -414,7 +442,7 @@
     //d3.selectAll('rows').remove();
 
     d3.csv('demographics.csv', function (error, data1) {
-    var columns = ["Ethnicity", "Population"];
+    var columns = ["Ethnicity", "Neighborhood Population", "Portland Population"];
 
     //console.log(data1);
     //console.log(number);
@@ -425,11 +453,23 @@
     ethnicity = data1.map(function(d) { return d.Ethnicity; });
     population = data1.map(function(d) { return d.Population; });
 
+   portland_array= [];
+   for (i=0; i<ids.length; i++){
+     portland_row = [];
+     if(ids[i] == 25){
+          portland_array.push(d3.format(',')(population[i]));
+     }
+    }
+    //console.log(portland_array)
+   original_i=-1;
+
    for (i=0; i<ids.length; i++){
       row_array = [];
       if(ids[i] == number){
+          original_i++;
           row_array.push(ethnicity[i]);
           row_array.push(d3.format(',')(population[i]));
+          row_array.push(portland_array[original_i]);
           table_array.push(row_array)
         }
       }
@@ -470,7 +510,9 @@
 
 
     return table;
+        console.log(table);
     });
+
 
   }
 
