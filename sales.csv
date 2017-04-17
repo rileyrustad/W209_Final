@@ -1,0 +1,145 @@
+NP_ID,Neighborhood,ReportYear,SingleFamilyUnits,MultiFamilyUnits,SingleFamilyPermits,MultiFamilyPermits
+1,122nd-Division,10,4405,3719,44,0
+1,122nd-Division,11,4441,3719,45,0
+1,122nd-Division,12,4468,3719,26,9
+1,122nd-Division,13,4494,3736,49,0
+1,122nd-Division,14,4515,3768,43,0
+1,122nd-Division,15,4543,3768,13,0
+2,Belmont-Hawthorne-Division,10,7168,6365,14,24
+2,Belmont-Hawthorne-Division,11,7180,6365,30,42
+2,Belmont-Hawthorne-Division,12,7199,6396,27,249
+2,Belmont-Hawthorne-Division,13,7222,6583,49,538
+2,Belmont-Hawthorne-Division,14,7258,6957,51,115
+2,Belmont-Hawthorne-Division,15,7302,7192,32,235
+3,Centennial-Glenfair-Wilkes,10,5632,4663,16,30
+3,Centennial-Glenfair-Wilkes,11,5652,4679,11,0
+3,Centennial-Glenfair-Wilkes,12,5659,4679,56,27
+3,Centennial-Glenfair-Wilkes,13,5667,4728,25,0
+3,Centennial-Glenfair-Wilkes,14,5679,4806,7,78
+3,Centennial-Glenfair-Wilkes,15,5684,4806,6,0
+4,Central,10,1116,22994,0,282
+4,Central,11,1116,23144,6,220
+4,Central,12,1121,23408,2,543
+4,Central,13,1122,23538,10,218
+4,Central,14,1127,24018,6,1797
+4,Central,15,1130,25765,8,1722
+5,Forest Hills,10,3126,663,10,0
+5,Forest Hills,11,3134,663,16,0
+5,Forest Hills,12,3144,663,12,0
+5,Forest Hills,13,3161,663,28,0
+5,Forest Hills,14,3176,663,18,0
+5,Forest Hills,15,3197,663,15,0
+6,Gateway,10,11625,6904,10,47
+6,Gateway,11,11634,6904,21,0
+6,Gateway,12,11648,6904,26,127
+6,Gateway,13,11664,7091,30,0
+6,Gateway,14,11692,7201,28,289
+6,Gateway,15,11703,7340,24,72
+7,Hayden,10,934,2138,0,0
+7,Hayden,11,934,2138,0,0
+7,Hayden,12,934,2138,1,0
+7,Hayden,13,935,2138,1,95
+7,Hayden,14,935,2138,2,140
+7,Hayden,15,937,2422,1,0
+8,Hillsdale-Multnomah-Barbur,10,5872,3384,12,0
+8,Hillsdale-Multnomah-Barbur,11,5877,3384,9,0
+8,Hillsdale-Multnomah-Barbur,12,5892,3384,14,119
+8,Hillsdale-Multnomah-Barbur,13,5904,3384,23,0
+8,Hillsdale-Multnomah-Barbur,14,5930,3506,39,0
+8,Hillsdale-Multnomah-Barbur,15,5956,3506,32,0
+9,Hollywood,10,8055,6658,9,50
+9,Hollywood,11,8057,6660,12,47
+9,Hollywood,12,8067,6786,12,145
+9,Hollywood,13,8077,6859,30,379
+9,Hollywood,14,8096,7279,26,124
+9,Hollywood,15,8107,7360,16,37
+10,Interstate,10,12842,5587,53,107
+10,Interstate,11,12879,5703,49,81
+10,Interstate,12,12916,5794,105,280
+10,Interstate,13,13006,5945,110,432
+10,Interstate,14,13107,6702,122,389
+10,Interstate,15,13185,6898,115,584
+11,Lents-Foster,10,14132,4649,78,0
+11,Lents-Foster,11,14187,4653,48,0
+11,Lents-Foster,12,14237,4667,71,0
+11,Lents-Foster,13,14304,4669,110,0
+11,Lents-Foster,14,14407,4675,96,6
+11,Lents-Foster,15,14494,4681,113,49
+12,MLK-Alberta,10,11752,2288,64,40
+12,MLK-Alberta,11,11797,2335,53,0
+12,MLK-Alberta,12,11853,2335,77,8
+12,MLK-Alberta,13,11929,2345,76,78
+12,MLK-Alberta,14,11987,2429,97,52
+12,MLK-Alberta,15,12086,2465,96,44
+13,Montavilla,10,10505,4797,17,0
+13,Montavilla,11,10523,4799,16,0
+13,Montavilla,12,10538,4799,30,15
+13,Montavilla,13,10563,4799,40,3
+13,Montavilla,14,10598,4813,61,28
+13,Montavilla,15,10647,4839,79,37
+14,Northwest,10,2777,10444,1,0
+14,Northwest,11,2781,10561,8,272
+14,Northwest,12,2783,10751,7,295
+14,Northwest,13,2790,11081,8,306
+14,Northwest,14,2794,11709,11,775
+14,Northwest,15,2802,11969,3,815
+15,Parkrose-Argay,10,2851,2697,3,0
+15,Parkrose-Argay,11,2854,2697,0,0
+15,Parkrose-Argay,12,2854,2697,0,0
+15,Parkrose-Argay,13,2854,2697,0,0
+15,Parkrose-Argay,14,2854,2700,2,0
+15,Parkrose-Argay,15,2854,2700,1,0
+16,Pleasant,10,4048,1324,6,0
+16,Pleasant,11,4054,1324,16,0
+16,Pleasant,12,4067,1324,12,0
+16,Pleasant,13,4075,1326,21,0
+16,Pleasant,14,4101,1326,20,0
+16,Pleasant,15,4115,1326,23,0
+17,Raleigh,10,4663,1209,8,0
+17,Raleigh,11,4672,1209,7,0
+17,Raleigh,12,4675,1209,7,15
+17,Raleigh,13,4683,1224,14,0
+17,Raleigh,14,4699,1224,25,0
+17,Raleigh,15,4721,1224,20,22
+18,Roseway-Cully,10,11221,4499,16,0
+18,Roseway-Cully,11,11243,4499,21,0
+18,Roseway-Cully,12,11263,4537,29,0
+18,Roseway-Cully,13,11283,4545,19,0
+18,Roseway-Cully,14,11306,4547,28,0
+18,Roseway-Cully,15,11337,4547,48,0
+19,Sellwood-Moreland-Brooklyn,10,4592,3722,15,0
+19,Sellwood-Moreland-Brooklyn,11,4609,3722,23,6
+19,Sellwood-Moreland-Brooklyn,12,4628,3728,34,1
+19,Sellwood-Moreland-Brooklyn,13,4651,3728,42,153
+19,Sellwood-Moreland-Brooklyn,14,4691,3894,43,68
+19,Sellwood-Moreland-Brooklyn,15,4733,3916,42,148
+20,South Hill,10,2816,4536,4,0
+20,South Hill,11,2820,4536,5,209
+20,South Hill,12,2823,4745,12,0
+20,South Hill,13,2832,4889,11,156
+20,South Hill,14,2843,5136,3,340
+20,South Hill,15,2847,5789,13,751
+21,St. John,10,7356,3665,36,52
+21,St. John,11,7383,3681,40,5
+21,St. John,12,7409,3689,50,0
+21,St. John,13,7449,3694,64,245
+21,St. John,14,7503,3945,65,31
+21,St. John,15,7562,3964,70,26
+22,Tryon Terwilliger,10,3656,258,12,0
+22,Tryon Terwilliger,11,3665,258,14,1
+22,Tryon Terwilliger,12,3677,258,12,0
+22,Tryon Terwilliger,13,3691,258,14,0
+22,Tryon Terwilliger,14,3702,258,16,0
+22,Tryon Terwilliger,15,3716,258,14,0
+23,West Portland,10,4250,1726,8,0
+23,West Portland,11,4255,1726,8,0
+23,West Portland,12,4261,1726,5,0
+23,West Portland,13,4267,1726,15,0
+23,West Portland,14,4279,1726,15,0
+23,West Portland,15,4297,1726,23,0
+24,Woodstock,10,6867,3540,21,0
+24,Woodstock,11,6890,3544,14,0
+24,Woodstock,12,6900,3546,27,0
+24,Woodstock,13,6927,3548,34,26
+24,Woodstock,14,6957,3560,62,4
+24,Woodstock,15,7004,3584,40,0
