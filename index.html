@@ -19,6 +19,9 @@
   stroke: steelblue;
   stroke-width: 2px;
 }
+.table{
+  table-layout: fixed;
+}
 
 </style>
 </head>
@@ -83,7 +86,9 @@
     <div id='neighborhood_table_div'></div>
     <div id='demo_table_div'></div>
     <div id='demo2_table_div'></div>
-    <div id='graph'></div>
+    <div id='graph'>
+        <h3> Permits for Multi Family and Single Family Houses </h3>
+    </div>
 
 </div>
 
@@ -280,7 +285,7 @@
       row_array = [];
       if(ids[i] == number){
           row_array.push(unit_size[i]);
-          row_array.push(rent_amt[i]);
+          row_array.push(d3.format(',')(rent_amt[i]));
           table_array.push(row_array)
         }
       }
@@ -356,7 +361,7 @@
       if(ids[i] == number){
          // row_array.push(ids[i]);
           row_array.push(ethnicity[i]);
-          row_array.push(households[i]);
+          row_array.push(d3.format(',')(households[i]));
           table_array.push(row_array)
         }
       }
@@ -367,6 +372,7 @@
       .append('tr')
     .selectAll("th")
       .data(columns)
+      //.attr('width', 50%)
     .enter()
       .append("th")
       .text(function(column) { return column; });
@@ -423,7 +429,7 @@
       row_array = [];
       if(ids[i] == number){
           row_array.push(ethnicity[i]);
-          row_array.push(population[i]);
+          row_array.push(d3.format(',')(population[i]));
           table_array.push(row_array)
         }
       }
@@ -475,7 +481,7 @@
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+    height = 700 - margin.top - margin.bottom;
 
 // parse the date / time
 var parseTime = d3.timeParse("%y");
@@ -488,7 +494,11 @@ var y = d3.scaleLinear().range([height, 0]);
 var valueline = d3.line()
     .x(function(d) { return x(d.ReportYear); })
     .y(function(d) { return y(d.SingleFamilyPermits); });
+  //  .y(function(d) { return y(d.MultiFamilyPermits); });
 
+var valueline2 = d3.line()
+    .x(function(d) { return x(d.ReportYear); })
+    .y(function(d) { return y(d.MultiFamilyPermits); });
 // append the svg obgect to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
@@ -510,8 +520,8 @@ table_array = [];
 
 ids = data.map(function(d) { return d.NP_ID; });
 rep_yr = data.map(function(d) { return d.ReportYear; });
-sfu = data.map(function(d) { return d.SingleFamilyPermits; });
-mfu = data.map(function(d) { return d.MultiFamilyUnits; });
+sfp = data.map(function(d) { return d.SingleFamilyPermits; });
+mfp = data.map(function(d) { return d.MultiFamilyPermits; });
 
 console.log(number);
 var neighborhood_object = {};
@@ -520,8 +530,8 @@ for (i=0; i<ids.length; i++){
   row_array = [];
   if(ids[i] == number){
         row_array.push(rep_yr[i]);
-        row_array.push(sfu[i]);
-        row_array.push(mfu[i])
+        row_array.push(sfp[i]);
+        row_array.push(mfp[i])
         table_array.push(row_array)
     }
   }
@@ -531,7 +541,8 @@ for (i=0; i<ids.length; i++){
 var data5 = table_array.map(function(d) {
     return {
       ReportYear: d[0],
-      SingleFamilyPermits: d[1]
+      SingleFamilyPermits: d[1],
+      MultiFamilyPermits: d[2]
     };
 });
 
@@ -541,18 +552,33 @@ var data5 = table_array.map(function(d) {
    data5.forEach(function(d) {
          //console.log(d);
          d.ReportYear = parseTime(d.ReportYear);
-         d.SingleFamilyUnits = d.SingleFamilyPermits;
+         d.SingleFamilyPermits = d.SingleFamilyPermits;
+         d.MultiFamilyPermits = d.MultiFamilyPermits;
 
    });
+   //console.log(data5);
+   //console.log(Math.max(data5));
 
+single_max = d3.max(data5, function(d){return d.SingleFamilyPermits;});
+multi_max = d3.max(data5, function(d){return d.MultiFamilyPermits;});
+
+console.log('max', Math.max(single_max, multi_max));
   // Scale the range of the data
   x.domain(d3.extent(data5, function(d) { return d.ReportYear; }));
-  y.domain([0, d3.max(data5, function(d) { return d.SingleFamilyPermits; })]);
+  y.domain([0, Math.max(single_max, multi_max)]);// d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
+ // y.domain([0, d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
+
   // Add the valueline path.
   svg.append("path")
       .data([data5])
       .attr("class", "line")
       .attr("d", valueline);
+
+  svg.append("path")
+      .data([data5])
+      .attr("class", "line")
+      .style('stroke', 'red')
+      .attr("d", valueline2);
 
   // Add the X Axis
   svg.append("g")
