@@ -68,7 +68,7 @@
             <input onclick="updateMap()" type="radio" name="demographic" value="Foreign-Born"> Foreign-Born<br>
             <input onclick="updateMap()" type="radio" name="demographic" value="Native American"> Native American<br>
             <input onclick="updateMap()" type="radio" name="demographic" value="Custom"> Custom <br><input id="custom"
-                type="text"><br>
+                                                                                                           type="text"><br>
         </form>
         <br>
         <p><strong>Housing Size</strong></p>
@@ -84,13 +84,13 @@
 <div class="col-sm-9">
     <div id="map"></div>
 </div>
-<div class="col-sm-6">
-
+<div class="col-sm-12">
+    <div id='graph'>
     <div id='neighborhood_table_div'></div>
     <div id='demo_table_div'></div>
     <div id='demo2_table_div'></div>
-    <div id='graph'>
-        <h3> Permits for Multi Family and Single Family Houses </h3>
+
+        <h3> Rent Prices 2008 to 2016 Neighborhood vs Portland (Red) </h3>
     </div>
 
 </div>
@@ -115,12 +115,6 @@
     //    var neighborhoods = L.geoJson(neighborhoodData).addTo(map);
 
     function getDemo() {
-//        if ($("input[name='demographic']:checked").val() == 'Custom') {
-//            console.log($('#custom').val());
-//
-//            return $('#custom').val();
-//        }
-        console.log($("input[name='demographic']:checked").val())
         return $("input[name='demographic']:checked").val()
     }
 
@@ -160,7 +154,7 @@
             for (i = 0; i < portlandDemo.length; i++) {
                 if (portlandDemo[i].demographic == demo) {
                     var can_afford = portlandDemo[i].rent;
-                } else if (demo == 'Custom'){
+                } else if (demo == 'Custom') {
                     var can_afford = Number($('#custom').val())
                 }
 
@@ -188,7 +182,7 @@
         for (i = 0; i < portlandDemo.length; i++) {
             if (demo == portlandDemo[i].demographic) {
                 var can_afford = portlandDemo[i].rent;
-            } else if (demo == 'Custom'){
+            } else if (demo == 'Custom') {
                 var can_afford = Number($('#custom').val())
             }
         }
@@ -283,7 +277,8 @@
 
         d3.csv('NeighborhoodHousingMarket.csv', function (error, data1) {
 
-            var columns = ["Rental Type", "Price"];
+
+            var columns = ["Rental Type", "Neighborhood Price", "Portland Price"];
 
             //console.log(data1);
             //console.log(number);
@@ -300,14 +295,29 @@
                 return d.NHM_Rent_Amt;
             });
 
+
+            portland_array = [];
+            for (i = 0; i < ids.length; i++) {
+                portland_row = [];
+                if (ids[i] == 25) {
+                    portland_array.push(d3.format(',')(rent_amt[i]));
+                }
+            }
+            //console.log(portland_array);
+            original_i = -1;
             for (i = 0; i < ids.length; i++) {
                 row_array = [];
                 if (ids[i] == number) {
+                    original_i++;
+                    //console.log(original_i);
                     row_array.push(unit_size[i]);
                     row_array.push(d3.format(',')(rent_amt[i]));
-                    table_array.push(row_array)
+                    row_array.push(portland_array[original_i]);
                 }
+                table_array.push(row_array);
             }
+            //table_array.push(portland_array);
+
             //console.log(table_array);
 
             var table = d3.select('#neighborhood_table_div').append('table')
@@ -370,7 +380,8 @@
         d3.csv('hh2.csv', function (error, data1) {
 
 
-            var columns = ["Household Type", "Population"];
+            var columns = ["Household Type", "Neighborhood Population", "Portland Population"];
+
 
             //console.log(data1);
             //console.log(number);
@@ -387,16 +398,30 @@
                 return d.Households;
             });
 
+
+            portland_array = [];
+            for (i = 0; i < ids.length; i++) {
+                portland_row = [];
+                if (ids[i] == 25) {
+                    portland_array.push(d3.format(',')(households[i]));
+                }
+            }
+            //console.log(portland_array)
+            original_i = -1;
             for (i = 0; i < ids.length; i++) {
                 row_array = [];
                 if (ids[i] == number) {
                     // row_array.push(ids[i]);
+                    original_i++;
                     row_array.push(ethnicity[i]);
                     row_array.push(d3.format(',')(households[i]));
+                    row_array.push(portland_array[original_i]);
+
                     table_array.push(row_array)
                 }
             }
             //console.log(table_array);
+
 
             var table = d3.select('#demo_table_div').append('table')
             var thead = table.append('thead')
@@ -415,6 +440,7 @@
             $("#demo_table").attr("class", "table table-hover table-striped");
 
             // append the header row
+
 //    thead.append('tr');
 
 
@@ -451,7 +477,8 @@
         //d3.selectAll('rows').remove();
 
         d3.csv('demographics.csv', function (error, data1) {
-            var columns = ["Ethnicity", "Population"];
+            var columns = ["Ethnicity", "Neighborhood Population", "Portland Population"];
+
 
             //console.log(data1);
             //console.log(number);
@@ -468,11 +495,24 @@
                 return d.Population;
             });
 
+
+            portland_array = [];
+            for (i = 0; i < ids.length; i++) {
+                portland_row = [];
+                if (ids[i] == 25) {
+                    portland_array.push(d3.format(',')(population[i]));
+                }
+            }
+            //console.log(portland_array)
+            original_i = -1;
+
             for (i = 0; i < ids.length; i++) {
                 row_array = [];
                 if (ids[i] == number) {
+                    original_i++;
                     row_array.push(ethnicity[i]);
                     row_array.push(d3.format(',')(population[i]));
+                    row_array.push(portland_array[original_i]);
                     table_array.push(row_array)
                 }
             }
@@ -494,6 +534,7 @@
             $("#demo2_table").attr("class", "table table-hover table-striped");
 
             // append the header row
+
 //    thead.append('tr');
 
 
@@ -519,17 +560,21 @@
 
 
             return table;
+            console.log(table);
         });
 
-    }
+
+    };
 
 
     function tabulate_supply(number) {
         $('#supply_graph').remove();
 
-        var margin = {top: 20, right: 20, bottom: 30, left: 50},
+
+        var margin = {top: 0, right: 20, bottom: 20, left: 50},
             width = 960 - margin.left - margin.right,
             height = 700 - margin.top - margin.bottom;
+
 
 // parse the date / time
         var parseTime = d3.timeParse("%y");
@@ -539,21 +584,22 @@
         var y = d3.scaleLinear().range([height, 0]);
 
 // define the line
+
         var valueline = d3.line()
             .x(function (d) {
-                return x(d.ReportYear);
+                return x(d.Year);
             })
             .y(function (d) {
-                return y(d.SingleFamilyPermits);
+                return y(d.Rent);
             });
         //  .y(function(d) { return y(d.MultiFamilyPermits); });
 
         var valueline2 = d3.line()
             .x(function (d) {
-                return x(d.ReportYear);
+                return x(d.Year);
             })
             .y(function (d) {
-                return y(d.MultiFamilyPermits);
+                return y(d.PRent);
             });
 // append the svg obgect to the body of the page
 // appends a 'group' element to 'svg'
@@ -568,7 +614,8 @@
             .text("Rental Graph");
 
 // Get the data
-        d3.csv("sales.csv", function (error, data) {
+
+        d3.csv("renttrends.csv", function (error, data) {
             if (error) throw error;
 
 
@@ -577,65 +624,73 @@
             ids = data.map(function (d) {
                 return d.NP_ID;
             });
-            rep_yr = data.map(function (d) {
-                return d.ReportYear;
+            yr = data.map(function (d) {
+                return d.Year;
             });
-            sfp = data.map(function (d) {
-                return d.SingleFamilyPermits;
+            rent = data.map(function (d) {
+                return d.Rent;
             });
-            mfp = data.map(function (d) {
-                return d.MultiFamilyPermits;
+            inv = data.map(function (d) {
+                return d.Inventory;
             });
 
             console.log(number);
-            var neighborhood_object = {};
+
+            portland_array = [];
+            for (i = 0; i < ids.length; i++) {
+                portland_row = [];
+                if (ids[i] == 25) {
+                    portland_array.push(rent[i]);
+                }
+            }
+//console.log(portland_array)
+            original_i = -1;
 
             for (i = 0; i < ids.length; i++) {
                 row_array = [];
                 if (ids[i] == number) {
-                    row_array.push(rep_yr[i]);
-                    row_array.push(sfp[i]);
-                    row_array.push(mfp[i])
+                    original_i++;
+                    row_array.push(yr[i]);
+                    row_array.push(rent[i]);
+                    row_array.push(inv[i]);
+                    row_array.push(portland_array[original_i]);
                     table_array.push(row_array)
                 }
             }
-//console.log(table_array);
+            console.log(table_array);
 
 
             var data5 = table_array.map(function (d) {
                 return {
-                    ReportYear: d[0],
-                    SingleFamilyPermits: d[1],
-                    MultiFamilyPermits: d[2]
+                    Year: d[0],
+                    Rent: d[1],
+                    PRent: d[3]
                 };
             });
 
-//console.log(data5)
+            console.log(data5);
+
 
             // format the data
             data5.forEach(function (d) {
                 //console.log(d);
-                d.ReportYear = parseTime(d.ReportYear);
-                d.SingleFamilyPermits = d.SingleFamilyPermits;
-                d.MultiFamilyPermits = d.MultiFamilyPermits;
+                d.Year = parseTime(d.Year);
+                d.Rent = d.Rent;
+                d.PRent = d.PRent;
 
             });
             //console.log(data5);
             //console.log(Math.max(data5));
 
-            single_max = d3.max(data5, function (d) {
-                return d.SingleFamilyPermits;
-            });
-            multi_max = d3.max(data5, function (d) {
-                return d.MultiFamilyPermits;
-            });
+//single_max = d3.max(data5, function(d){return d.SingleFamilyPermits;});
+//multi_max = d3.max(data5, function(d){return d.MultiFamilyPermits;});
 
-            console.log('max', Math.max(single_max, multi_max));
+//console.log('max', Math.max(single_max, multi_max));
             // Scale the range of the data
             x.domain(d3.extent(data5, function (d) {
-                return d.ReportYear;
+                return d.Year;
             }));
-            y.domain([0, Math.max(single_max, multi_max)]);// d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
+            y.domain([600, 1750]);//d3.max(data5, function(d) { return d.Rent;})]);// d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
             // y.domain([0, d3.max(data5, function(d) { return d.MultiFamilyPermits; })]);
 
             // Add the valueline path.
@@ -719,82 +774,82 @@
     legend.addTo(map);
 
 
-    d3.select('#sliders')
-        .append('svg')
-        .attr('id', 'slider_svg');
-
-    var svg = d3.select('#slider_svg')
-            .attr('height', 100)
-            .attr('width', $("#sliders").width()),
-        margin = {right: 30, left: 30},
-        width = svg.attr("width") - margin.left - margin.right,
-        height = svg.attr("height");
-
-    var x = d3.scaleLinear()
-        .domain(0, 100)
-        .range(0, width)
-        .clamp(true);
-
-    var startValue = x(50),
-        startingValue = 50;
-
-    //    var brush = d3.brushX()
-    //        .x(xScale)
-    //        .extent([startingValue,startingValue])
-    //        .on("brush", brushed);
-
-    var slider = svg.append("g")
-        .attr("class", "slider")
-        .attr("transform", "translate(" + margin.left + "," + height / 2 + ")");
-
-    slider.append("line")
-        .attr("class", "track")
-        .attr("x1", x.range()[0])
-        .attr("x2", x.range()[1])
-        .select(function () {
-            return this.parentNode.appendChild(this.cloneNode(true));
-        })
-        .attr("class", "track-inset")
-        .select(function () {
-            return this.parentNode.appendChild(this.cloneNode(true));
-        })
-        .attr("class", "track-overlay")
-        .call(d3.drag()
-            .on("start.interrupt", function () {
-                slider.interrupt();
-            })
-            .on("start drag", function () {
-                hue(x.invert(d3.event.x));
-            }));
-    slider.insert("g", ".track-overlay")
-        .attr("class", "ticks")
-        .attr("transform", "translate(0," + 18 + ")")
-        .selectAll("text")
-        .data(x.ticks(10))
-        .enter().append("text")
-        .attr("x", x)
-        .attr("text-anchor", "middle")
-        .text(function (d) {
-            return d + "°";
-        });
-
-    var handle = slider.insert("circle", ".track-overlay")
-        .attr("class", "handle")
-        .attr("r", 9);
-
-    slider.transition() // Gratuitous intro!
-        .duration(750)
-        .tween("hue", function () {
-            var i = d3.interpolate(0, 70);
-            return function (t) {
-                hue(i(t));
-            };
-        });
-
-    function hue(h) {
-        handle.attr("cx", x(h));
-        svg.style("background-color", d3.hsl(h, 0.8, 0.8));
-    }
+    //    d3.select('#sliders')
+    //        .append('svg')
+    //        .attr('id', 'slider_svg');
+    //
+    //    var svg = d3.select('#slider_svg')
+    //            .attr('height', 100)
+    //            .attr('width', $("#sliders").width()),
+    //        margin = {right: 30, left: 30},
+    //        width = svg.attr("width") - margin.left - margin.right,
+    //        height = svg.attr("height");
+    //
+    //    var x = d3.scaleLinear()
+    //        .domain(0, 100)
+    //        .range(0, width)
+    //        .clamp(true);
+    //
+    //    var startValue = x(50),
+    //        startingValue = 50;
+    //
+    //    //    var brush = d3.brushX()
+    //    //        .x(xScale)
+    //    //        .extent([startingValue,startingValue])
+    //    //        .on("brush", brushed);
+    //
+    //    var slider = svg.append("g")
+    //        .attr("class", "slider")
+    //        .attr("transform", "translate(" + margin.left + "," + height / 2 + ")");
+    //
+    //    slider.append("line")
+    //        .attr("class", "track")
+    //        .attr("x1", x.range()[0])
+    //        .attr("x2", x.range()[1])
+    //        .select(function () {
+    //            return this.parentNode.appendChild(this.cloneNode(true));
+    //        })
+    //        .attr("class", "track-inset")
+    //        .select(function () {
+    //            return this.parentNode.appendChild(this.cloneNode(true));
+    //        })
+    //        .attr("class", "track-overlay")
+    //        .call(d3.drag()
+    //            .on("start.interrupt", function () {
+    //                slider.interrupt();
+    //            })
+    //            .on("start drag", function () {
+    //                hue(x.invert(d3.event.x));
+    //            }));
+    //    slider.insert("g", ".track-overlay")
+    //        .attr("class", "ticks")
+    //        .attr("transform", "translate(0," + 18 + ")")
+    //        .selectAll("text")
+    //        .data(x.ticks(10))
+    //        .enter().append("text")
+    //        .attr("x", x)
+    //        .attr("text-anchor", "middle")
+    //        .text(function (d) {
+    //            return d + "°";
+    //        });
+    //
+    //    var handle = slider.insert("circle", ".track-overlay")
+    //        .attr("class", "handle")
+    //        .attr("r", 9);
+    //
+    //    slider.transition() // Gratuitous intro!
+    //        .duration(750)
+    //        .tween("hue", function () {
+    //            var i = d3.interpolate(0, 70);
+    //            return function (t) {
+    //                hue(i(t));
+    //            };
+    //        });
+    //
+    //    function hue(h) {
+    //        handle.attr("cx", x(h));
+    //        svg.style("background-color", d3.hsl(h, 0.8, 0.8));
+    //    }
 
     //$("#neighborhood_table").attr("class", "table");
 
