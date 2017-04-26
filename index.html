@@ -31,8 +31,8 @@
 <div class="about col-sm-12">
     <div class="col-sm-8 col-sm-offset-2">
         <p class="intro">Every year the Portland Housing Bureau releases their annual
-            “<a href="https://www.portlandoregon.gov/phb/67393">State of Housing in Portland Report</a>”. In their
-            report they give updates to critical housing, demographic, and affordability metrics. This is our effort to
+            “<a href="https://www.portlandoregon.gov/phb/67393">State of Housing in Portland Report</a>”. In it
+            they give updates to critical housing, demographic, and affordability metrics. This is our effort to
             take the work that they've done, and create an interactive visualization that allows Portlandians to
             explore their city through the lense of the city's data. Our goal is to help Portland natives better
             understand the current housing market city-wide, in addition to where they live.</p>
@@ -40,7 +40,9 @@
         <p class="intro">The information for each demographic in the "Choose a Portlandian" field is sourced from the
             2015 American Community Survey, an extension of the US Census. Our tool takes the average income for each
             demographic group and compares it to the average cost of rent for each housing unit size across all
-            neighborhoods.</p>
+            neighborhoods. On average, each demographic household could afford a rental unit in [blue] without becoming
+            cost burdened and spending more than 30% of their monthly income on rent, not including utilities. Those in
+            red would be considered cost burdened" - <i>City of Portland Housing Bureau</i></p>
     </div>
 </div>
 
@@ -49,35 +51,82 @@
         <h4 id="button">Choose a Portlandian:</h4>
         <p><strong>Demographic</strong></p>
         <form>
-            <input onclick="updateMap()" type="radio" name="demographic" checked value="Avg. Portland Household"> Avg.
-            Portland Household<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Extremely Low-Income"> 3-Person
-            Extremely Low-Income<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Low-Income"> 3-Person
-            Low-Income<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Moderate-Income"> 3-Person
-            Moderate-Income<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Couple with Family"> Couple with
-            Family<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="White"> White<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Black"> Black<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Latino"> Latino<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Asian"> Asian<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Senior"> Senior<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Single Mother"> Single Mother<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Foreign-Born"> Foreign-Born<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Native American"> Native American<br>
-            <input onclick="updateMap()" type="radio" name="demographic" value="Custom"> Custom <br><input id="custom"
-                                                                                                           type="text"><br>
-        </form>
-        <br>
-        <p><strong>Housing Size</strong></p>
-        <form>
-            <input onclick="updateMap()" type="radio" name="housing_size" value="Studio"> Studio<br>
-            <input onclick="updateMap()" type="radio" name="housing_size" value="1-BR"> 1-BR<br>
-            <input onclick="updateMap()" type="radio" name="housing_size" value="2-BR" checked> 2-BR<br>
-            <input onclick="updateMap()" type="radio" name="housing_size" value="3-BR"> 3-BR
-        </form>
+            <form>
+                <input onclick="updateMap()" type="radio" name="demographic" checked value="Avg. Portland Household">
+                <a href="#" data-toggle="tooltip"
+                   title="A household profile developed using data from the ACS to derive the median household income for a household in Portland">
+                    Avg.Portland Household</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Extremely Low-Income">
+                <a href="#" data-toggle="tooltip"
+                   title=" Extremely low-income individuals, households or tenants are those with a gross household income at or below 30 percent of the area median income.">
+                    3-PersonExtremely Low-Income</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Low-Income">
+                <a href="#" data-toggle="tooltip"
+                   title=" Low-income individuals, households or tenants are those with a gross household income at or below 50 percent of the area median income.">3-Person
+                    Low-Income</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="3-Person Moderate-Income">
+                <a href="#" data-toggle="tooltip"
+                   title=" Moderate-income individuals, households or tenants are those with a gross household income at or below 80 percent of the area median income">3-Person
+                    Moderate-Income</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Couple with Family">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as being married with children under the age of 18.">
+                    Couple with Family</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="White">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identify as White Non-Hispanic">
+                    White</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Black">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as African American.">
+                    Black</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Latino">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household  profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as Hispanic-Latino.">
+                    Latino</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Asian">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as Asian">
+                    Asian</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Senior">
+                <a href="#" data-toggle="tooltip"
+                   title=" A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as over 65 years of age.">Senior</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Single Mother">
+                <a href="#" data-toggle="tooltip" title="A household profile
+                developed using data from the ACS to derive the median household income for a household with the head of household(s)identifying as a female single head of household with
+                children under the age of 18.">Single Mother</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Foreign-Born">
+                <a href="#" data-toggle="tooltip"
+                   title="A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as being Foreign-Born">Foreign-Born</a>
+                <br>
+                <input onclick="updateMap()" type="radio" name="demographic" value="Native American">
+                <a href="#" data-toggle="tooltip"
+                   title="A household profile developed using data from the ACS to derive the median household income for a household with the head of household(s) identifying as Native American or Alaska Native.">Native
+                    American</a><br>
+
+                <input onclick="updateMap()" type="radio" name="demographic" value="Custom"> Custom <br><input
+                    id="custom"
+                    type="text"><br>
+            </form>
+            <br>
+            <p><strong>Housing Size</strong></p>
+            <form>
+                <input onclick="updateMap()" type="radio" name="housing_size" value="Studio"> Studio<br>
+                <input onclick="updateMap()" type="radio" name="housing_size" value="1-BR"> 1-BR<br>
+                <input onclick="updateMap()" type="radio" name="housing_size" value="2-BR" checked> 2-BR<br>
+                <input onclick="updateMap()" type="radio" name="housing_size" value="3-BR"> 3-BR
+            </form>
     </div>
 </div>
 </div>
@@ -86,9 +135,9 @@
 </div>
 <div class="col-sm-12">
     <div id='graph'>
-    <div id='neighborhood_table_div'></div>
-    <div id='demo_table_div'></div>
-    <div id='demo2_table_div'></div>
+        <div id='neighborhood_table_div'></div>
+        <div id='demo_table_div'></div>
+        <div id='demo2_table_div'></div>
 
         <h3> Rent Prices 2008 to 2016 Neighborhood vs Portland (Red) </h3>
     </div>
@@ -564,7 +613,8 @@
         });
 
 
-    };
+    }
+    ;
 
 
     function tabulate_supply(number) {
